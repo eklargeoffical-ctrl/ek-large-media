@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ek Large carousel engine</title>
+<style>
+:root{--ink:#15100C;--ox:#4A1A18;--amber:#C8862E;--honey:#E3B04B;--cream:#F2E6CF;--muted:#CDBDA3}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--ink)}
+.slide{width:1080px;height:1350px;position:relative;overflow:hidden;padding:88px 96px;display:flex;flex-direction:column;justify-content:space-between;font-family:'Poppins',sans-serif}
+.top{display:flex;justify-content:space-between;font-size:22px;letter-spacing:5px;font-weight:500}
+.bot{display:flex;justify-content:space-between;font-size:22px;letter-spacing:4px}
+.mid{display:flex;flex-direction:column;gap:40px}
+.k{font-size:26px;letter-spacing:6px;font-weight:500}
+.t{margin:0;font-family:'Lora',serif;font-weight:400;letter-spacing:-2px;line-height:1.02;text-wrap:balance}
+.t em{font-style:italic}
+.b{margin:0;font-family:'Lora',serif;font-size:48px;line-height:1.28}
+.hi{font-family:'FreeSerif',serif}
+.vis{display:flex;justify-content:flex-end}
+ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:22px}
+ol li{display:flex;gap:28px;align-items:baseline;font-family:'Lora',serif;font-size:46px;line-height:1.2}
+ol li b{font-family:'Poppins',sans-serif;font-size:24px;letter-spacing:3px;min-width:48px}
+</style>
+</head>
+<body>
+<div id="out"></div>
+<script src="sahab.js"></script>
+<script>
+const BG={ink:['#15100C','#F2E6CF','#C8862E','#E3B04B','#CDBDA3'],ox:['#4A1A18','#F2E6CF','#E3B04B','#E3B04B','#E6D6BC'],amber:['#C8862E','#15100C','#15100C','#4A1A18','#15100C']};
+function fit(el,maxH,start,min){let s=start;el.style.fontSize=s+'px';while(el.scrollHeight>maxH&&s>min){s-=4;el.style.fontSize=s+'px';}}
+window.build=function(spec){
+  const out=document.getElementById('out'); out.innerHTML='';
+  const N=spec.slides.length;
+  spec.slides.forEach((s,i)=>{
+    const [bg,fg,lab,em,muted]=BG[s.bg||(s.type==='cover'?'ink':s.type==='end'?'amber':'ink')];
+    const d=document.createElement('div'); d.className='slide'; d.style.background=bg; d.style.color=fg; d.id='s'+i;
+    const top=`<div class="top" style="color:${lab}"><div>EK LARGE · ${spec.series}</div><div>${String(i+1).padStart(2,'0')} / ${String(N).padStart(2,'0')}</div></div>`;
+    const bot=s.type==='end'?'':`<div class="bot" style="color:${muted}"><div>@ek.large</div><div>${i<N-1?'SWIPE →':''}</div></div>`;
+    let mid='';
+    if(s.type==='cover') mid=`${s.hindi?`<div class="hi" style="font-size:60px;color:${em}">${s.hindi}</div>`:''}<h1 class="t" data-fit="420,150,90">${s.title}</h1>${s.sub?`<p class="b" style="max-width:640px">${s.sub}</p>`:''}${s.face?`<div class="vis">${SAHAB.face(s.face,330)}</div>`:''}`;
+    if(s.type==='point') mid=`${s.kicker?`<div class="k" style="color:${lab}">${s.kicker}</div>`:''}<h2 class="t" data-fit="420,120,70">${s.title}</h2>${s.body?`<p class="b">${s.body}</p>`:''}${s.face?`<div class="vis">${SAHAB.face(s.face,300)}</div>`:''}${s.icon?`<div class="vis">${SAHAB.icon(s.icon,240,fg)}</div>`:''}`;
+    if(s.type==='list') mid=`<h2 class="t" data-fit="300,104,70">${s.title}</h2><ol>${s.items.map((x,k)=>`<li><b style="color:${lab}">0${k+1}</b><span>${x}</span></li>`).join('')}</ol>`;
+    if(s.type==='end') mid=`${s.kicker?`<div class="k">${s.kicker}</div>`:''}<h2 class="t" data-fit="480,112,70">${s.title}</h2>${s.body?`<p class="b">${s.body}</p>`:''}`;
+    d.innerHTML=top+`<div class="mid">${mid}</div>`+(s.type==='end'?`<div style="background:#15100C;color:#F2E6CF;border-radius:28px;padding:40px 48px;display:flex;flex-direction:column;gap:14px"><div style="font-family:'Lora',serif;font-size:44px;line-height:1.2">${s.cta||''}</div><div style="font-size:24px;letter-spacing:4px;color:#E3B04B;font-weight:500">FOLLOW @EK.LARGE · WATER BETWEEN PEGS</div></div>`:bot);
+    out.appendChild(d);
+    d.querySelectorAll('.t em').forEach(e=>e.style.color=em);
+    d.querySelectorAll('[data-fit]').forEach(e=>{const [h,a,b]=e.dataset.fit.split(',').map(Number);fit(e,h,a,b);});
+  });
+  return N;
+};
+</script>
+</body>
+</html>

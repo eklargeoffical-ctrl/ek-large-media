@@ -1,0 +1,13 @@
+{
+  "id": "Car22_BarCartStarterKit", "series": "BAR CART", "date": "2026-10-22T13:00:00",
+  "caption": "Your first bar cart, Large Sahab approved. 🥃\n\nFive things, and you don’t even need a bottle yet: good tumblers, a jigger, big ice moulds, a water jug, and a proper chakna bowl.\n\nSave this for your next ghar party. And DM a photo of your bar cart: Large Sahab will rate it.\n\nWater between pegs.\n\n#BarCart #LargeSahab #EkLarge #GharParty",
+  "slides": [
+    {"type": "cover", "hindi": "बार कार्ट", "title": "Your first bar cart, <em>Large&nbsp;Sahab approved.</em>", "sub": "Five things. No bottles needed yet.", "face": "wink"},
+    {"type": "point", "kicker": "01", "title": "Heavy-bottom <em>tumblers.</em>", "body": "Two good ones beat twelve cheap ones.", "icon": "neat"},
+    {"type": "point", "kicker": "02", "title": "A <em>jigger.</em>", "body": "30 ml on one side, 60 ml on the other. No more guessing pegs.", "face": "wink", "bg": "ox"},
+    {"type": "point", "kicker": "03", "title": "Big ice <em>moulds.</em>", "body": "Large cubes melt slowly. Your whisky stays whisky.", "icon": "rocks"},
+    {"type": "point", "kicker": "04", "title": "A water <em>jug.</em>", "body": "Always on the cart. Water between pegs.", "icon": "water", "bg": "ox"},
+    {"type": "point", "kicker": "05", "title": "A chakna <em>bowl.</em>", "body": "Peanuts in. Cucumbers out.", "face": "dis"},
+    {"type": "end", "kicker": "YOUR TURN", "title": "What’s on <em>your</em> bar cart?", "body": "DM a photo. Large&nbsp;Sahab will rate it.", "cta": "Save this before your next party."}
+  ]
+}

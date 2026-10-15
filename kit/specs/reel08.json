@@ -1,0 +1,15 @@
+{
+  "id": "Reel08", "slug": "OrderLikeLargeSahab",
+  "taal": "dadra", "bar": 1.5, "sa": 233.08, "seed": 8, "groove": "strut",
+  "date": "2026-10-21T20:00:00",
+  "caption": "How to order like Large Sahab. Five rules, no exceptions. 🥃\n\nSay your measure. Water on the side. Chakna first. Sip, don’t shoot. Book the cab before the bill.\n\nWhich rule do you break? Confess below, and tag your bar buddy.\n\nNever drink and drive.\n\n#BarEtiquette #LargeSahab #EkLarge #WhiskyLovers",
+  "scenes": [
+    {"type": "hook", "bars": 3, "label": "BAR ETIQUETTE", "hindi": "बार के नियम", "title": "How to order like <em>Large&nbsp;Sahab.</em>", "sub": "Five rules. No exceptions.", "face": "wink"},
+    {"type": "card", "bars": 3, "label": "RULE 1", "n": 5, "k": 1, "title": "Say your measure: <em>“Ek large.”</em>", "body": "Not “one strong one”. The bartender isn’t a mind reader.", "face": "wink"},
+    {"type": "card", "bars": 3, "label": "RULE 2", "n": 5, "k": 2, "title": "Water <em>on the side.</em>", "body": "Every time. Between every peg.", "icon": "water", "bg": "ox"},
+    {"type": "card", "bars": 3, "label": "RULE 3", "n": 5, "k": 3, "title": "Order the chakna <em>first.</em>", "body": "Before the first peg, not after the third.", "face": "shock"},
+    {"type": "card", "bars": 3, "label": "RULE 4", "n": 5, "k": 4, "title": "Sip. <em>Don’t shoot.</em>", "body": "Good whisky is a conversation, not a race.", "icon": "neat", "bg": "ox"},
+    {"type": "card", "bars": 3, "label": "RULE 5", "n": 5, "k": 5, "title": "Book the cab <em>before the bill.</em>", "body": "Never drink and drive. Large&nbsp;Sahab insists.", "face": "dis", "bg": "deep"},
+    {"type": "end", "bars": 3, "title": "Which rule do you <i>break?</i>", "line1": "Confess below.", "line2": "Tag your bar buddy."}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "Reel05", "slug": "LargeSahabDisapproves02",
+  "taal": "keherwa", "bar": 2.3, "sa": 293.66, "seed": 5, "groove": "strut",
+  "date": "2026-10-18T20:00:00",
+  "caption": "Large Sahab Disapproves, No. 02. Five more crimes. Still zero forgiveness. 🥃\n\nWhich one have you committed? Confess below. Large Sahab already knows.\n\nTag the friend who calls everything “Scotch”.\n\nAnd for the record: never drink and drive.\n\n#LargeSahab #EkLarge #WhiskyLovers #DesiHumour",
+  "scenes": [
+    {"type": "hook", "bars": 2, "label": "LARGE SAHAB DISAPPROVES", "title": "No. 02. <em>Still not forgiving.</em>", "sub": "Five more drinking crimes.", "face": "dis"},
+    {"type": "card", "bars": 2, "label": "CRIME No. 1", "n": 5, "k": 1, "title": "Calling every whisky <em>“Scotch.”</em>", "body": "Scotch comes from Scotland. Amrut is from Bengaluru, beta.", "face": "dis", "stamp": "DISAPPROVED"},
+    {"type": "card", "bars": 2, "label": "CRIME No. 2", "n": 5, "k": 2, "title": "Clinking so hard <em>the glass chips.</em>", "body": "It’s a cheers, not a boxing match.", "face": "shock", "stamp": "DISAPPROVED", "bg": "ox"},
+    {"type": "card", "bars": 2, "label": "CRIME No. 3", "n": 5, "k": 3, "title": "Leaving the bottle <em>open all night.</em>", "body": "Cap it. The whisky deserves better.", "face": "dis", "stamp": "DISAPPROVED"},
+    {"type": "card", "bars": 2, "label": "CRIME No. 4", "n": 5, "k": 4, "title": "Drinking on an <em>empty stomach.</em>", "body": "Chakna first. Always.", "face": "shock", "stamp": "DISAPPROVED", "bg": "ox"},
+    {"type": "card", "bars": 2, "label": "CRIME No. 5", "n": 5, "k": 5, "title": "“I’m fine <em>to drive.</em>”", "body": "You’re not. Book the cab.", "face": "dis", "stamp": "NEVER.", "bg": "deep"},
+    {"type": "end", "bars": 2, "title": "Which crime have you <i>committed?</i>", "line1": "Confess below.", "line2": "Follow for No. 03."}
+  ]
+}

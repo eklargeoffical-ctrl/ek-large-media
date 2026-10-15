@@ -1,0 +1,13 @@
+# Weekly autopilot (runs every Sunday morning, IST)
+
+You are producing next week's content for the Instagram page @ek.large for its owner. Work through these steps in order. Be careful: these posts go live automatically.
+
+1. **Get the kit.** Attach and clone the GitHub repository `eklargeoffical-ctrl/ek-large-media` (push access). Read `kit/README.md` fully and follow it. Look at `kit/specs/` and `kit/log.md` to see everything already made, so nothing repeats.
+2. **Find the window.** Call Metricool `getBrandSettings` (brand 6288777, Asia/Kolkata) and `getScheduledPosts` from today to 21 days ahead. The window is every date from the day after the last scheduled reel up to and including the Monday that is 8 days after today. If the window is empty, skip to step 7.
+3. **Plan.** One reel per date at 8:00 pm IST. Fridays: next "Large Sahab's Field Guide: Friday Night Species" (number it after the last one in `kit/specs/`). Rotate the other series listed in the README. Also plan one carousel for each Tuesday, Thursday and Saturday in the window that has no folder in `carousels/` yet. If the owner's previous message in a past autopilot run named top posts, lean toward those series.
+4. **Make the reels.** For each date write `kit/specs/reelNN.json` (next number after the highest existing), preview it, fix anything that wraps badly or is unreadable, then render with `make_reel.py`. Check facts in any "Made in India" or history reel with a web search before using them.
+5. **Make the carousels.** Write `kit/specs/carDD.json` (DD = day of month) and render with `make_carousel.py`.
+6. **Publish files and schedule.** Commit and push to `main`. For each reel call Metricool `createScheduledPost` exactly as the README says (raw GitHub links, caption from the spec, 20:00 Asia/Kolkata, REEL, autoPublish true). If Metricool rejects a post because of a plan limit, stop scheduling, keep the rendered files, and say so in the report. Then confirm with `getScheduledPosts` that every new reel is there with the right date.
+7. **Log and report.** Append a dated entry to `kit/log.md` (what was scheduled, ids, carousels made) and push. Then send the owner one short message: the list of reels scheduled (date, title), and each new carousel's slide images and caption ready to post at 1:00 pm on its day. Keep it short and plain.
+
+Never: post anything outside the window, delete or change posts you did not create in this run, change the Metricool brand settings, use paid features, or invent facts.
