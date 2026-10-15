@@ -1,0 +1,82 @@
+{
+ "id": "Reel13",
+ "slug": "GharPartyGuestEtiquette",
+ "taal": "dadra",
+ "bar": 1.5,
+ "sa": 277.18,
+ "seed": 13,
+ "groove": "bounce",
+ "date": "2026-10-26T20:00:00",
+ "caption": "Invited to a ghar party? Five rules from Large Sahab. 🥃\n\nDon’t arrive empty-handed. Leave the host’s special bottle alone. Help clear one round. Read the room before peg four. Text the host when you reach home.\n\nWhich rule does your gang break? Tag the guest who needs this.\n\nWater between pegs. Never drink and drive.\n\n#BarEtiquette #GharParty #LargeSahab #EkLarge",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 3,
+   "label": "BAR ETIQUETTE",
+   "hindi": "मेहमान के नियम",
+   "title": "Invited to a <em>ghar party?</em>",
+   "sub": "Five rules from Large&nbsp;Sahab.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "RULE 1",
+   "n": 5,
+   "k": 1,
+   "title": "Never arrive <em>empty-handed.</em>",
+   "body": "Snacks, ice, mixers. Anything. Just not nothing.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "RULE 2",
+   "n": 5,
+   "k": 2,
+   "title": "The host’s best bottle? <em>Not for you.</em>",
+   "body": "If it’s on the top shelf, wait to be offered.",
+   "icon": "bottle",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "RULE 3",
+   "n": 5,
+   "k": 3,
+   "title": "Help clear <em>one round.</em>",
+   "body": "Glasses to the kitchen. The host will remember.",
+   "face": "shock"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "RULE 4",
+   "n": 5,
+   "k": 4,
+   "title": "Host yawning? <em>Time to go.</em>",
+   "body": "Read the room before you pour peg four.",
+   "face": "dis",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "RULE 5",
+   "n": 5,
+   "k": 5,
+   "title": "Text the host <em>“reached home.”</em>",
+   "body": "In a cab, not behind the wheel.",
+   "icon": "water",
+   "bg": "deep"
+  },
+  {
+   "type": "end",
+   "bars": 3,
+   "title": "Which rule does your gang <i>break?</i>",
+   "line1": "Tag the guest who needs this.",
+   "line2": "Follow @ek.large."
+  }
+ ]
+}

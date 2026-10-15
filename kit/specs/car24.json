@@ -1,0 +1,13 @@
+{
+  "id": "Car24_GharPartyHostChecklist", "series": "GHAR PARTY", "date": "2026-10-24T13:00:00",
+  "caption": "Hosting a ghar party tonight? Large Sahab’s checklist. 🥃\n\nA water station everyone can see. Enough real glasses. Dinner by ten. A sofa made up for anyone who shouldn’t leave. And you check how every guest gets home.\n\nSave this before your next party, and tag the friend who always hosts.\n\nWater between pegs. Never drink and drive.\n\n#GharParty #LargeSahab #EkLarge #PartyHost",
+  "slides": [
+    {"type": "cover", "hindi": "घर पार्टी", "title": "Hosting tonight? <em>Large&nbsp;Sahab’s checklist.</em>", "sub": "Five things a good host never forgets.", "face": "wink"},
+    {"type": "point", "kicker": "01", "title": "A water <em>station.</em>", "body": "Jug and glasses, where everyone can see them. Water between pegs.", "icon": "water"},
+    {"type": "point", "kicker": "02", "title": "Enough real <em>glasses.</em>", "body": "So nobody ends up with a paper cup.", "icon": "rocks", "bg": "ox"},
+    {"type": "point", "kicker": "03", "title": "Dinner by <em>ten.</em>", "body": "Chakna is a starter, not a meal.", "face": "wink"},
+    {"type": "point", "kicker": "04", "title": "A sofa, <em>made up.</em>", "body": "Pillow and blanket for anyone who shouldn’t head home tonight.", "face": "shock", "bg": "ox"},
+    {"type": "point", "kicker": "05", "title": "Check how everyone <em>gets home.</em>", "body": "Cab booked, or a sober driver. No exceptions.", "face": "dis"},
+    {"type": "end", "kicker": "YOUR TURN", "title": "What’s on <em>your</em> host checklist?", "body": "Tell Large&nbsp;Sahab in the comments.", "cta": "Save this before your next party."}
+  ]
+}

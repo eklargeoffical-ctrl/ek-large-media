@@ -1,0 +1,83 @@
+{
+ "id": "Reel10",
+ "slug": "FieldGuide02FridayNightSpecies",
+ "taal": "keherwa",
+ "bar": 2.2,
+ "sa": 261.63,
+ "seed": 10,
+ "groove": "strut",
+ "date": "2026-10-23T20:00:00",
+ "caption": "Large Sahab's Field Guide, No. 02: Friday Night Species. 🥃\n\nFive more creatures, spotted in the wild this weekend. Only one of them is protected.\n\nWhich species are you? Be honest. Then tag the one in your gang.\n\nAnd if you're the Cab Captain, Large Sahab salutes you. Never drink and drive.\n\n#LargeSahab #EkLarge #FridayNight #DesiHumour",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 2,
+   "label": "FIELD GUIDE No. 02",
+   "hindi": "शुक्रवार रात",
+   "title": "Friday Night <em>Species.</em>",
+   "sub": "Large&nbsp;Sahab observes the locals. Again.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "SPECIMEN No. 01",
+   "n": 5,
+   "k": 1,
+   "title": "The Selfie <em>Sommelier.</em>",
+   "body": "Photographs every glass. Has not taken a sip since 9 pm.",
+   "face": "shock"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "SPECIMEN No. 02",
+   "n": 5,
+   "k": 2,
+   "title": "The Bill <em>Vanisher.</em>",
+   "body": "Here all night. Gone to the washroom the moment the bill arrives.",
+   "face": "dis",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "SPECIMEN No. 03",
+   "n": 5,
+   "k": 3,
+   "title": "The Story <em>Repeater.</em>",
+   "body": "“Maine tumhe bataya tha na…” Yes. Three times tonight.",
+   "face": "shock"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "SPECIMEN No. 04",
+   "n": 5,
+   "k": 4,
+   "title": "The Hug <em>Distributor.</em>",
+   "body": "Peg three. Loves everyone. Even the bouncer.",
+   "face": "wink",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "SPECIMEN No. 05",
+   "n": 5,
+   "k": 5,
+   "title": "The Cab <em>Captain.</em>",
+   "body": "Books everyone's ride home. Waits till the last one is in.",
+   "face": "wink",
+   "stamp": "PROTECTED",
+   "bg": "deep"
+  },
+  {
+   "type": "end",
+   "bars": 2,
+   "title": "Which species<br>are <i>you?</i>",
+   "line1": "Tag the one in your gang.",
+   "line2": "More species next Friday."
+  }
+ ]
+}

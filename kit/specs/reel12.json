@@ -1,0 +1,86 @@
+{
+ "id": "Reel12",
+ "slug": "LargeSahabDisapproves03",
+ "taal": "keherwa",
+ "bar": 2.2,
+ "sa": 293.66,
+ "seed": 12,
+ "groove": "sneak",
+ "date": "2026-10-25T20:00:00",
+ "caption": "Large Sahab Disapproves, No. 03. Five new crimes. Zero forgiveness, as usual. 🥃\n\nWhich one have you committed? Confess below. Large Sahab already knows.\n\nTag the friend who tops up your glass without asking.\n\nWater between pegs. Never drink and drive.\n\n#LargeSahab #EkLarge #WhiskyLovers #DesiHumour",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 2,
+   "label": "LARGE SAHAB DISAPPROVES",
+   "title": "No. 03. <em>Zero forgiveness.</em>",
+   "sub": "Five new drinking crimes.",
+   "face": "dis"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "CRIME No. 1",
+   "n": 5,
+   "k": 1,
+   "title": "Storing the bottle <em>on its side.</em>",
+   "body": "Whisky stands upright. Strong spirit is hard on the cork.",
+   "icon": "bottle",
+   "stamp": "DISAPPROVED"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "CRIME No. 2",
+   "n": 5,
+   "k": 2,
+   "title": "Topping up <em>without asking.</em>",
+   "body": "Hospitality is asking. Not ambushing.",
+   "face": "shock",
+   "stamp": "DISAPPROVED",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "CRIME No. 3",
+   "n": 5,
+   "k": 3,
+   "title": "Sniffing whisky <em>like a bloodhound.</em>",
+   "body": "Gently, beta. It’s about 40% alcohol, not perfume.",
+   "face": "dis",
+   "stamp": "DISAPPROVED"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "CRIME No. 4",
+   "n": 5,
+   "k": 4,
+   "title": "Finishing the last peg <em>“so it’s not wasted.”</em>",
+   "body": "The bottle will wait. Your liver is not a dustbin.",
+   "face": "shock",
+   "stamp": "DISAPPROVED",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "CRIME No. 5",
+   "n": 5,
+   "k": 5,
+   "title": "Pushing a friend <em>who said no.</em>",
+   "body": "No means no. Get them a water instead.",
+   "face": "dis",
+   "stamp": "NEVER.",
+   "bg": "deep"
+  },
+  {
+   "type": "end",
+   "bars": 2,
+   "title": "Which crime have you <i>committed?</i>",
+   "line1": "Confess below.",
+   "line2": "Follow for No. 04."
+  }
+ ]
+}
