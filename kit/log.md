@@ -24,3 +24,5 @@
 ## 15 Oct 2026, 8:30 pm (separate thumbnails)
 - New: kit/thumb.html + kit/make_thumb.py make a separate poster thumbnail per reel (reels/ReelNN_Thumb.jpg); `thumb` added to specs reel04–13, plus specs/thumb02.json and thumb03.json.
 - Reel videos 03–13 restored to the clean versions (no cover frame). Metricool posts 03–13 updated to the clean video + videoThumbnailUrl = the new thumbnail (ids in the next line).
+- Metricool ids after the thumbnail update (all PENDING 20:00 IST, clean video + new thumbnail): 03=396906273, 04=396906390, 05=396906444, 06=396906508, 07=396906570, 08=396906630, 09=396906734, 10=396906839, 11=396906892, 12=396906943, 13=396907003.
+- Watch: Reel 02 ignored its cover. Check on 16 Oct that Reel 03 shows Reel03_Thumb.jpg as its cover.
