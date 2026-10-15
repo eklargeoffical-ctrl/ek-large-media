@@ -1,14 +1,80 @@
 {
-  "id": "Reel09", "slug": "DaruDictionaryTastingWords",
-  "taal": "dadra", "bar": 1.5, "sa": 246.94, "seed": 9, "groove": "sneak",
-  "date": "2026-10-22T20:00:00",
-  "caption": "Daru Dictionary, No. 02: four tasting words. 🥃\n\nDram, nose, finish, cask strength. Next time someone at the party says “notes of oak”, you’ll know what they mean.\n\nWhich word did you just learn? Comment below, and save this for your next tasting.\n\nWater between pegs. Never drink and drive.\n\n#DaruDictionary #LargeSahab #EkLarge #WhiskyLovers",
-  "scenes": [
-    {"type": "hook", "bars": 3, "label": "DARU DICTIONARY", "hindi": "दारू डिक्शनरी", "title": "No. 02. <em>Tasting words.</em>", "sub": "Talk like Large&nbsp;Sahab.", "face": "wink"},
-    {"type": "card", "bars": 3, "label": "WORD 1 OF 4", "n": 4, "k": 1, "title": "<em>Dram.</em>", "body": "A small pour of whisky. Scottish word, no fixed size.", "icon": "neat"},
-    {"type": "card", "bars": 3, "label": "WORD 2 OF 4", "n": 4, "k": 2, "title": "<em>Nose.</em>", "body": "The aroma. Smell it before you sip it.", "face": "wink", "bg": "ox"},
-    {"type": "card", "bars": 3, "label": "WORD 3 OF 4", "n": 4, "k": 3, "title": "<em>Finish.</em>", "body": "The taste that stays after you swallow.", "icon": "splash"},
-    {"type": "card", "bars": 3, "label": "WORD 4 OF 4", "n": 4, "k": 4, "title": "Cask <em>strength.</em>", "body": "Bottled without adding water. Stronger than usual, so go slow.", "icon": "bottle", "bg": "ox"},
-    {"type": "end", "bars": 3, "title": "Which word did you <i>just learn?</i>", "line1": "Comment below.", "line2": "Save this for your next tasting."}
-  ]
+ "id": "Reel09",
+ "slug": "DaruDictionaryTastingWords",
+ "taal": "dadra",
+ "bar": 1.5,
+ "sa": 246.94,
+ "seed": 9,
+ "groove": "sneak",
+ "date": "2026-10-22T20:00:00",
+ "caption": "Daru Dictionary, No. 02: four tasting words. 🥃\n\nDram, nose, finish, cask strength. Next time someone at the party says “notes of oak”, you’ll know what they mean.\n\nWhich word did you just learn? Comment below, and save this for your next tasting.\n\nWater between pegs. Never drink and drive.\n\n#DaruDictionary #LargeSahab #EkLarge #WhiskyLovers",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 3,
+   "label": "DARU DICTIONARY",
+   "hindi": "दारू डिक्शनरी",
+   "title": "No. 02. <em>Tasting words.</em>",
+   "sub": "Talk like Large&nbsp;Sahab.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "WORD 1 OF 4",
+   "n": 4,
+   "k": 1,
+   "title": "<em>Dram.</em>",
+   "body": "A small pour of whisky. Scottish word, no fixed size.",
+   "icon": "neat"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "WORD 2 OF 4",
+   "n": 4,
+   "k": 2,
+   "title": "<em>Nose.</em>",
+   "body": "The aroma. Smell it before you sip it.",
+   "face": "wink",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "WORD 3 OF 4",
+   "n": 4,
+   "k": 3,
+   "title": "<em>Finish.</em>",
+   "body": "The taste that stays after you swallow.",
+   "icon": "splash"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "WORD 4 OF 4",
+   "n": 4,
+   "k": 4,
+   "title": "Cask <em>strength.</em>",
+   "body": "Bottled without adding water. Stronger than usual, so go slow.",
+   "icon": "bottle",
+   "bg": "ox"
+  },
+  {
+   "type": "end",
+   "bars": 3,
+   "title": "Which word did you <i>just learn?</i>",
+   "line1": "Comment below.",
+   "line2": "Save this for your next tasting."
+  }
+ ],
+ "thumb": {
+  "kicker": "DARU DICTIONARY",
+  "no": "02",
+  "title": "Talk like a <em>whisky snob.</em>",
+  "sub": "Dram. Nose. Finish. Cask strength.",
+  "face": "wink",
+  "side": "splash",
+  "bg": "ox"
+ }
 }

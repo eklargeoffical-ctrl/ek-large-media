@@ -78,5 +78,14 @@
    "line1": "Tag the guest who needs this.",
    "line2": "Follow @ek.large."
   }
- ]
+ ],
+ "thumb": {
+  "kicker": "GHAR PARTY",
+  "hindi": "मेहमान के नियम",
+  "title": "Invited to a <em>ghar party?</em>",
+  "sub": "Read this before you go.",
+  "face": "wink",
+  "side": "bottle",
+  "bg": "amber"
+ }
 }

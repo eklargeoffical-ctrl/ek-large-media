@@ -79,5 +79,15 @@
    "line1": "Tag the one in your gang.",
    "line2": "More species next Friday."
   }
- ]
+ ],
+ "thumb": {
+  "kicker": "FIELD GUIDE",
+  "no": "02",
+  "hindi": "शुक्रवार रात",
+  "title": "Friday Night <em>Species.</em>",
+  "sub": "Five more. Tag yours.",
+  "face": "shock",
+  "stamp": "SPOTTED",
+  "bg": "amber"
+ }
 }

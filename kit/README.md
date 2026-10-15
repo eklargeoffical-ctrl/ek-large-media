@@ -23,11 +23,12 @@ Tabla-led, quirky and catchy: a short repeating tabla hook with playful bass-dru
    - `bars`: keherwa bar ≈ 2.1–2.3 s (2 bars per card); dadra cycle 1.5 s (3 per card). Keep reels 22–33 s.
    - Use `&nbsp;` to keep names together, always `Large&nbsp;Sahab` in on-screen text. Put `date` (IST, 20:00) and `caption` in the spec.
 2. Preview: `python3 make_reel.py specs/reelNN.json --preview 1.5,6,10 /tmp/pv.png` and look at it. Titles must not wrap awkwardly; body text must be readable.
-3. Render: `python3 make_reel.py specs/reelNN.json` → `reels/ReelNN_<slug>.mp4` and `reels/ReelNN_Cover.jpg`.
+3. Render: `python3 make_reel.py specs/reelNN.json` → `reels/ReelNN_<slug>.mp4`.
+   Thumbnail: add a `thumb` object to the spec (see the top of `make_thumb.py`; copy one from reel09–13) and run `python3 make_thumb.py specs/reelNN.json` → `reels/ReelNN_Thumb.jpg`. The thumbnail is a separate poster, never a frame of the video (owner's rule). Short punchy title (2–6 words), one sub line, a face that fits the joke, an optional stamp. Look at it before scheduling. Alternate light (cream, amber) and dark (ink, oak, ox) backgrounds so the profile grid looks good.
 4. Commit and push to `main`. Public link: `https://raw.githubusercontent.com/eklargeoffical-ctrl/ek-large-media/main/reels/<file>`.
 
 ## Scheduling (Metricool, brand id 6288777, timezone Asia/Kolkata)
-`createScheduledPost` with: providers [{network: instagram}], instagramData {type: REEL, showReelOnFeed: true}, media [raw mp4 link], videoCoverMilliseconds 0 (the cover is baked in as frame 0 by make_reel.py; do NOT send videoThumbnailUrl, Instagram ignored it on Reel 02), text = caption, publicationDate {dateTime: "YYYY-MM-DDT20:00:00", timezone: "Asia/Kolkata"}, autoPublish true, draft false. Then `getScheduledPosts` to confirm. The free plan allows about 20 posts a month: reels only; the owner posts carousels himself.
+`createScheduledPost` with: providers [{network: instagram}], instagramData {type: REEL, showReelOnFeed: true}, media [raw mp4 link], videoThumbnailUrl [raw `ReelNN_Thumb.jpg` link] (never videoCoverMilliseconds), text = caption, publicationDate {dateTime: "YYYY-MM-DDT20:00:00", timezone: "Asia/Kolkata"}, autoPublish true, draft false. Then `getScheduledPosts` to confirm. The free plan allows about 20 posts a month: reels only; the owner posts carousels himself.
 
 ## Weekly plan
 - Reels every day at 8:00 pm IST. Fridays = "Large Sahab's Field Guide: Friday Night Species" series.

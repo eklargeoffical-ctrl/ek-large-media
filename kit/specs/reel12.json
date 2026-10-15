@@ -82,5 +82,14 @@
    "line1": "Confess below.",
    "line2": "Follow for No. 04."
   }
- ]
+ ],
+ "thumb": {
+  "kicker": "DISAPPROVES",
+  "no": "03",
+  "title": "Five new <em>crimes.</em>",
+  "sub": "Zero forgiveness.",
+  "face": "dis",
+  "stamp": "NO MERCY",
+  "bg": "ox"
+ }
 }

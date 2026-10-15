@@ -1,14 +1,80 @@
 {
-  "id": "Reel04", "slug": "DaruDictionaryBarWords",
-  "taal": "keherwa", "bar": 2.2, "sa": 261.63, "seed": 4, "groove": "bounce",
-  "date": "2026-10-17T20:00:00",
-  "caption": "Daru Dictionary: four bar words, one reel. 🥃\n\nNeat, on the rocks, a splash, highball. Now you can order like Large Sahab.\n\nWhich one is yours? Comment below. And save this for your next order.\n\nWater between pegs. Never drink and drive.\n\n#DaruDictionary #LargeSahab #EkLarge #WhiskyLovers",
-  "scenes": [
-    {"type": "hook", "bars": 2, "label": "DARU DICTIONARY", "hindi": "दारू डिक्शनरी", "title": "Four bar words. <em>One reel.</em>", "sub": "Order like you mean it.", "face": "wink"},
-    {"type": "card", "bars": 2, "label": "WORD 1 OF 4", "n": 4, "k": 1, "title": "<em>Neat.</em>", "body": "Straight from the bottle. No ice, no water.", "icon": "neat"},
-    {"type": "card", "bars": 2, "label": "WORD 2 OF 4", "n": 4, "k": 2, "title": "On the <em>rocks.</em>", "body": "Poured over ice. Colder, and it slowly mellows.", "icon": "rocks", "bg": "ox"},
-    {"type": "card", "bars": 2, "label": "WORD 3 OF 4", "n": 4, "k": 3, "title": "A <em>splash.</em>", "body": "A few drops of water. It opens up the aroma.", "icon": "splash"},
-    {"type": "card", "bars": 2, "label": "WORD 4 OF 4", "n": 4, "k": 4, "title": "<em>Highball.</em>", "body": "Whisky, plenty of soda and ice, in a tall glass.", "icon": "highball", "bg": "ox"},
-    {"type": "end", "bars": 2, "title": "Which one is <i>yours?</i>", "line1": "Comment below.", "line2": "Save this for your next order."}
-  ]
+ "id": "Reel04",
+ "slug": "DaruDictionaryBarWords",
+ "taal": "keherwa",
+ "bar": 2.2,
+ "sa": 261.63,
+ "seed": 4,
+ "groove": "bounce",
+ "date": "2026-10-17T20:00:00",
+ "caption": "Daru Dictionary: four bar words, one reel. 🥃\n\nNeat, on the rocks, a splash, highball. Now you can order like Large Sahab.\n\nWhich one is yours? Comment below. And save this for your next order.\n\nWater between pegs. Never drink and drive.\n\n#DaruDictionary #LargeSahab #EkLarge #WhiskyLovers",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 2,
+   "label": "DARU DICTIONARY",
+   "hindi": "दारू डिक्शनरी",
+   "title": "Four bar words. <em>One reel.</em>",
+   "sub": "Order like you mean it.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "WORD 1 OF 4",
+   "n": 4,
+   "k": 1,
+   "title": "<em>Neat.</em>",
+   "body": "Straight from the bottle. No ice, no water.",
+   "icon": "neat"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "WORD 2 OF 4",
+   "n": 4,
+   "k": 2,
+   "title": "On the <em>rocks.</em>",
+   "body": "Poured over ice. Colder, and it slowly mellows.",
+   "icon": "rocks",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "WORD 3 OF 4",
+   "n": 4,
+   "k": 3,
+   "title": "A <em>splash.</em>",
+   "body": "A few drops of water. It opens up the aroma.",
+   "icon": "splash"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "WORD 4 OF 4",
+   "n": 4,
+   "k": 4,
+   "title": "<em>Highball.</em>",
+   "body": "Whisky, plenty of soda and ice, in a tall glass.",
+   "icon": "highball",
+   "bg": "ox"
+  },
+  {
+   "type": "end",
+   "bars": 2,
+   "title": "Which one is <i>yours?</i>",
+   "line1": "Comment below.",
+   "line2": "Save this for your next order."
+  }
+ ],
+ "thumb": {
+  "kicker": "DARU DICTIONARY",
+  "no": "01",
+  "title": "Neat. Rocks. <em>Splash.</em>",
+  "sub": "Bar words, decoded.",
+  "face": "wink",
+  "side": "rocks",
+  "bg": "cream"
+ }
 }

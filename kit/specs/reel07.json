@@ -1,18 +1,101 @@
 {
-  "id": "Reel07", "slug": "ChaknaTierList",
-  "taal": "keherwa", "bar": 2.1, "sa": 277.18, "seed": 7, "groove": "bounce",
-  "date": "2026-10-20T20:00:00",
-  "caption": "The official chakna ranking. Large Sahab has spoken. 🥃\n\nS-tier: masala peanuts, forever.\nD-tier: cucumber. We need to talk.\n\nYour S-tier isn’t on the list? Comment it. The full list is in today’s post.\n\nWater between pegs. Never drink and drive.\n\n#Chakna #TierList #LargeSahab #EkLarge",
-  "scenes": [
-    {"type": "hook", "bars": 2, "label": "TIER LIST", "title": "The official <em>chakna</em> ranking.", "sub": "Fight in the comments.", "face": "wink"},
-    {"type": "tier", "bars": 4, "label": "TIER LIST", "title": "The <em>verdict.</em>", "rows": [
-      {"letter": "S", "items": ["Masala peanuts", "Chicken tikka", "Masala papad"]},
-      {"letter": "A", "items": ["Fried kaju", "Seekh kebab", "Amritsari fish"]},
-      {"letter": "B", "items": ["Aloo bhujia", "Paneer tikka", "Chana jor garam"]},
-      {"letter": "C", "items": ["Salted chips", "Kurkure"]},
-      {"letter": "D", "items": ["Cucumber slices", "Plain salad"]}]},
-    {"type": "card", "bars": 2, "label": "S-TIER", "title": "Masala peanuts. <em>Forever.</em>", "body": "Cheap. Salty. Always there. Never judges you.", "face": "wink", "stamp": "S-TIER"},
-    {"type": "card", "bars": 2, "label": "D-TIER", "title": "Cucumber is <em>not chakna.</em>", "body": "It’s a cry for help.", "face": "dis", "stamp": "D-TIER", "bg": "ox"},
-    {"type": "end", "bars": 2, "title": "Your S-tier isn’t <i>on the list?</i>", "line1": "Comment it.", "line2": "Full list in today’s post."}
-  ]
+ "id": "Reel07",
+ "slug": "ChaknaTierList",
+ "taal": "keherwa",
+ "bar": 2.1,
+ "sa": 277.18,
+ "seed": 7,
+ "groove": "bounce",
+ "date": "2026-10-20T20:00:00",
+ "caption": "The official chakna ranking. Large Sahab has spoken. 🥃\n\nS-tier: masala peanuts, forever.\nD-tier: cucumber. We need to talk.\n\nYour S-tier isn’t on the list? Comment it. The full list is in today’s post.\n\nWater between pegs. Never drink and drive.\n\n#Chakna #TierList #LargeSahab #EkLarge",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 2,
+   "label": "TIER LIST",
+   "title": "The official <em>chakna</em> ranking.",
+   "sub": "Fight in the comments.",
+   "face": "wink"
+  },
+  {
+   "type": "tier",
+   "bars": 4,
+   "label": "TIER LIST",
+   "title": "The <em>verdict.</em>",
+   "rows": [
+    {
+     "letter": "S",
+     "items": [
+      "Masala peanuts",
+      "Chicken tikka",
+      "Masala papad"
+     ]
+    },
+    {
+     "letter": "A",
+     "items": [
+      "Fried kaju",
+      "Seekh kebab",
+      "Amritsari fish"
+     ]
+    },
+    {
+     "letter": "B",
+     "items": [
+      "Aloo bhujia",
+      "Paneer tikka",
+      "Chana jor garam"
+     ]
+    },
+    {
+     "letter": "C",
+     "items": [
+      "Salted chips",
+      "Kurkure"
+     ]
+    },
+    {
+     "letter": "D",
+     "items": [
+      "Cucumber slices",
+      "Plain salad"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "S-TIER",
+   "title": "Masala peanuts. <em>Forever.</em>",
+   "body": "Cheap. Salty. Always there. Never judges you.",
+   "face": "wink",
+   "stamp": "S-TIER"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "D-TIER",
+   "title": "Cucumber is <em>not chakna.</em>",
+   "body": "It’s a cry for help.",
+   "face": "dis",
+   "stamp": "D-TIER",
+   "bg": "ox"
+  },
+  {
+   "type": "end",
+   "bars": 2,
+   "title": "Your S-tier isn’t <i>on the list?</i>",
+   "line1": "Comment it.",
+   "line2": "Full list in today’s post."
+  }
+ ],
+ "thumb": {
+  "kicker": "TIER LIST",
+  "title": "Chakna, <em>ranked.</em>",
+  "sub": "Cucumber, we need to talk.",
+  "face": "shock",
+  "stamp": "D-TIER?",
+  "bg": "ink"
+ }
 }

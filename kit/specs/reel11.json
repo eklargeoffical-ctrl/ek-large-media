@@ -1,18 +1,98 @@
 {
-  "id": "Reel11", "slug": "WhiskyGlassTierList",
-  "taal": "keherwa", "bar": 2.2, "sa": 220.0, "seed": 11, "groove": "bounce",
-  "date": "2026-10-24T20:00:00",
-  "caption": "The official whisky glass ranking. Large Sahab has spoken. 🥃\n\nS-tier: a tulip nosing glass or a heavy tumbler.\nD-tier: the paper cup. We need to talk.\n\nWhat do you drink from at home? Be honest in the comments.\n\nWater between pegs. Never drink and drive.\n\n#TierList #LargeSahab #EkLarge #WhiskyLovers",
-  "scenes": [
-    {"type": "hook", "bars": 2, "label": "TIER LIST", "title": "The official <em>whisky glass</em> ranking.", "sub": "Fight in the comments.", "face": "wink"},
-    {"type": "tier", "bars": 4, "label": "TIER LIST", "title": "The <em>verdict.</em>", "rows": [
-      {"letter": "S", "items": ["Tulip nosing glass", "Heavy tumbler"]},
-      {"letter": "A", "items": ["Highball glass", "Small brandy glass"]},
-      {"letter": "B", "items": ["Wine glass", "Plain short glass"]},
-      {"letter": "C", "items": ["Steel glass", "Coffee mug"]},
-      {"letter": "D", "items": ["Paper cup", "Plastic disposable"]}]},
-    {"type": "card", "bars": 2, "label": "S-TIER", "title": "Tulip glass. <em>Respect.</em>", "body": "Narrow top, so the aroma stays where your nose is.", "icon": "neat", "stamp": "S-TIER"},
-    {"type": "card", "bars": 2, "label": "D-TIER", "title": "The paper cup is <em>not a glass.</em>", "body": "It’s a confession.", "face": "dis", "stamp": "D-TIER", "bg": "ox"},
-    {"type": "end", "bars": 2, "title": "What do you drink from <i>at home?</i>", "line1": "Be honest.", "line2": "Comment below."}
-  ]
+ "id": "Reel11",
+ "slug": "WhiskyGlassTierList",
+ "taal": "keherwa",
+ "bar": 2.2,
+ "sa": 220.0,
+ "seed": 11,
+ "groove": "bounce",
+ "date": "2026-10-24T20:00:00",
+ "caption": "The official whisky glass ranking. Large Sahab has spoken. 🥃\n\nS-tier: a tulip nosing glass or a heavy tumbler.\nD-tier: the paper cup. We need to talk.\n\nWhat do you drink from at home? Be honest in the comments.\n\nWater between pegs. Never drink and drive.\n\n#TierList #LargeSahab #EkLarge #WhiskyLovers",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 2,
+   "label": "TIER LIST",
+   "title": "The official <em>whisky glass</em> ranking.",
+   "sub": "Fight in the comments.",
+   "face": "wink"
+  },
+  {
+   "type": "tier",
+   "bars": 4,
+   "label": "TIER LIST",
+   "title": "The <em>verdict.</em>",
+   "rows": [
+    {
+     "letter": "S",
+     "items": [
+      "Tulip nosing glass",
+      "Heavy tumbler"
+     ]
+    },
+    {
+     "letter": "A",
+     "items": [
+      "Highball glass",
+      "Small brandy glass"
+     ]
+    },
+    {
+     "letter": "B",
+     "items": [
+      "Wine glass",
+      "Plain short glass"
+     ]
+    },
+    {
+     "letter": "C",
+     "items": [
+      "Steel glass",
+      "Coffee mug"
+     ]
+    },
+    {
+     "letter": "D",
+     "items": [
+      "Paper cup",
+      "Plastic disposable"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "S-TIER",
+   "title": "Tulip glass. <em>Respect.</em>",
+   "body": "Narrow top, so the aroma stays where your nose is.",
+   "icon": "neat",
+   "stamp": "S-TIER"
+  },
+  {
+   "type": "card",
+   "bars": 2,
+   "label": "D-TIER",
+   "title": "The paper cup is <em>not a glass.</em>",
+   "body": "It’s a confession.",
+   "face": "dis",
+   "stamp": "D-TIER",
+   "bg": "ox"
+  },
+  {
+   "type": "end",
+   "bars": 2,
+   "title": "What do you drink from <i>at home?</i>",
+   "line1": "Be honest.",
+   "line2": "Comment below."
+  }
+ ],
+ "thumb": {
+  "kicker": "TIER LIST",
+  "title": "Your whisky glass, <em>ranked.</em>",
+  "sub": "Paper cup, we need to talk.",
+  "face": "dis",
+  "side": "neat",
+  "bg": "cream"
+ }
 }

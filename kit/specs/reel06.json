@@ -1,15 +1,91 @@
 {
-  "id": "Reel06", "slug": "IndiasWhiskyTrail",
-  "taal": "dadra", "bar": 1.5, "sa": 220.0, "seed": 6, "groove": "bounce",
-  "date": "2026-10-19T20:00:00",
-  "caption": "Large Sahab’s whisky trail: India makes world-class single malt. 🥃\n\nAmrut from Bengaluru. Paul John from Goa. Rampur from Uttar Pradesh. Indri from Haryana. Godawan from Rajasthan.\n\nWhich one have you tried? And which state should be next on the trail?\n\nSip slowly. Never drink and drive.\n\n#IndianSingleMalt #LargeSahab #EkLarge #MadeInIndia",
-  "scenes": [
-    {"type": "hook", "bars": 3, "label": "MADE IN INDIA", "hindi": "देसी सिंगल माल्ट", "title": "India makes <em>world-class</em> single malt.", "sub": "Large&nbsp;Sahab’s whisky trail.", "face": "wink"},
-    {"type": "card", "bars": 3, "label": "STOP 1 OF 5", "n": 5, "k": 1, "title": "Amrut&nbsp;· <em>Bengaluru</em>", "body": "Karnataka. India’s first single malt, launched in 2004.", "icon": "bottle"},
-    {"type": "card", "bars": 3, "label": "STOP 2 OF 5", "n": 5, "k": 2, "title": "Paul&nbsp;John&nbsp;· <em>Goa</em>", "body": "Single malt from the beach state.", "icon": "bottle", "bg": "ox"},
-    {"type": "card", "bars": 3, "label": "STOP 3 OF 5", "n": 5, "k": 3, "title": "Rampur&nbsp;· <em>Uttar Pradesh</em>", "body": "Single malt made in Rampur by Radico Khaitan.", "icon": "bottle"},
-    {"type": "card", "bars": 3, "label": "STOP 4 OF 5", "n": 5, "k": 4, "title": "Indri&nbsp;· <em>Haryana</em>", "body": "Single malt from Indri village, by Piccadily Distilleries.", "icon": "bottle", "bg": "ox"},
-    {"type": "card", "bars": 3, "label": "STOP 5 OF 5", "n": 5, "k": 5, "title": "Godawan&nbsp;· <em>Rajasthan</em>", "body": "Single malt from Alwar, made in the desert heat.", "icon": "bottle"},
-    {"type": "end", "bars": 3, "title": "Which one have you <i>tried?</i>", "line1": "Tell Large&nbsp;Sahab.", "line2": "Desi, and proud of it."}
-  ]
+ "id": "Reel06",
+ "slug": "IndiasWhiskyTrail",
+ "taal": "dadra",
+ "bar": 1.5,
+ "sa": 220.0,
+ "seed": 6,
+ "groove": "bounce",
+ "date": "2026-10-19T20:00:00",
+ "caption": "Large Sahab’s whisky trail: India makes world-class single malt. 🥃\n\nAmrut from Bengaluru. Paul John from Goa. Rampur from Uttar Pradesh. Indri from Haryana. Godawan from Rajasthan.\n\nWhich one have you tried? And which state should be next on the trail?\n\nSip slowly. Never drink and drive.\n\n#IndianSingleMalt #LargeSahab #EkLarge #MadeInIndia",
+ "scenes": [
+  {
+   "type": "hook",
+   "bars": 3,
+   "label": "MADE IN INDIA",
+   "hindi": "देसी सिंगल माल्ट",
+   "title": "India makes <em>world-class</em> single malt.",
+   "sub": "Large&nbsp;Sahab’s whisky trail.",
+   "face": "wink"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "STOP 1 OF 5",
+   "n": 5,
+   "k": 1,
+   "title": "Amrut&nbsp;· <em>Bengaluru</em>",
+   "body": "Karnataka. India’s first single malt, launched in 2004.",
+   "icon": "bottle"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "STOP 2 OF 5",
+   "n": 5,
+   "k": 2,
+   "title": "Paul&nbsp;John&nbsp;· <em>Goa</em>",
+   "body": "Single malt from the beach state.",
+   "icon": "bottle",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "STOP 3 OF 5",
+   "n": 5,
+   "k": 3,
+   "title": "Rampur&nbsp;· <em>Uttar Pradesh</em>",
+   "body": "Single malt made in Rampur by Radico Khaitan.",
+   "icon": "bottle"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "STOP 4 OF 5",
+   "n": 5,
+   "k": 4,
+   "title": "Indri&nbsp;· <em>Haryana</em>",
+   "body": "Single malt from Indri village, by Piccadily Distilleries.",
+   "icon": "bottle",
+   "bg": "ox"
+  },
+  {
+   "type": "card",
+   "bars": 3,
+   "label": "STOP 5 OF 5",
+   "n": 5,
+   "k": 5,
+   "title": "Godawan&nbsp;· <em>Rajasthan</em>",
+   "body": "Single malt from Alwar, made in the desert heat.",
+   "icon": "bottle"
+  },
+  {
+   "type": "end",
+   "bars": 3,
+   "title": "Which one have you <i>tried?</i>",
+   "line1": "Tell Large&nbsp;Sahab.",
+   "line2": "Desi, and proud of it."
+  }
+ ],
+ "thumb": {
+  "kicker": "MADE IN INDIA",
+  "hindi": "देसी सिंगल माल्ट",
+  "title": "India makes <em>world-class</em> single malt.",
+  "sub": "Five stops on the whisky trail.",
+  "face": "wink",
+  "side": "bottle",
+  "bg": "amber",
+  "max": 150
+ }
 }

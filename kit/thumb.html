@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ek Large reel thumbnail</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+#t{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:'Poppins',sans-serif}
+.rays{position:absolute;left:50%;top:1180px;width:3200px;height:3200px;margin:-1600px 0 0 -1600px;border-radius:50%}
+.glow{position:absolute;left:50%;top:1180px;width:1300px;height:1300px;margin:-650px 0 0 -650px;border-radius:50%}
+/* the label: everything that matters sits in the centre 3:4 (y 240-1680), which is what the profile grid shows */
+.label{position:absolute;left:44px;right:44px;top:262px;height:1396px;border-radius:30px}
+.label:after{content:'';position:absolute;inset:14px;border-radius:20px;border:2px solid currentColor;opacity:.55}
+.head{position:absolute;left:92px;right:92px;top:318px;display:flex;justify-content:space-between;align-items:center}
+.pill{padding:16px 28px;border-radius:999px;font-size:27px;letter-spacing:6px;font-weight:600;line-height:1}
+.no{width:150px;height:150px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:'Lora',serif;line-height:1}
+.no small{font-family:'Poppins',sans-serif;font-size:18px;letter-spacing:4px;font-weight:600;margin-bottom:6px}
+.no b{font-size:66px;font-weight:500}
+.hi{position:absolute;left:96px;top:500px;font-family:'FreeSerif',serif;font-size:58px}
+.title{position:absolute;left:92px;right:92px;top:580px;margin:0;font-family:'Lora',serif;font-weight:500;letter-spacing:-3px;line-height:.98;text-wrap:balance}
+.title em{font-style:italic;font-weight:400}
+.sub{position:absolute;left:96px;right:96px;font-family:'Lora',serif;font-style:italic;font-size:44px;line-height:1.2}
+.vis{position:absolute;left:50%;transform:translateX(-50%);bottom:282px;display:flex;align-items:flex-end;justify-content:center}
+.stamp{position:absolute;right:84px;bottom:420px;transform:rotate(-9deg);padding:20px 34px;border:6px solid;border-radius:16px;font-size:44px;letter-spacing:6px;font-weight:700;line-height:1}
+.foot{position:absolute;left:0;right:0;bottom:300px;text-align:center;font-size:24px;letter-spacing:7px;font-weight:600}
+.edge{position:absolute;left:0;right:0;text-align:center;font-size:22px;letter-spacing:7px;font-weight:500;opacity:.7}
+</style>
+</head>
+<body>
+<div id="t"></div>
+<script src="sahab.js"></script>
+<script>
+// palettes: [background, label, ink (text), em (italic accent), pill bg, pill text, glow]
+const P = {
+  ox:    ['#3A1412', '#4A1A18', '#F2E6CF', '#E3B04B', '#E3B04B', '#15100C', 'rgba(227,176,75,.22)'],
+  ink:   ['#0E0A07', '#15100C', '#F2E6CF', '#E3B04B', '#C8862E', '#15100C', 'rgba(200,134,46,.25)'],
+  oak:   ['#1E150F', '#2A1D15', '#F2E6CF', '#E3B04B', '#F2E6CF', '#2A1D15', 'rgba(227,176,75,.20)'],
+  amber: ['#B67724', '#C8862E', '#15100C', '#4A1A18', '#15100C', '#E3B04B', 'rgba(242,230,207,.35)'],
+  cream: ['#E6D6BA', '#F2E6CF', '#15100C', '#4A1A18', '#4A1A18', '#F2E6CF', 'rgba(200,134,46,.22)'],
+};
+function fit(el, maxH, start, min){ let s = start; el.style.fontSize = s + 'px'; while ((el.scrollHeight > maxH || el.scrollWidth > el.clientWidth) && s > min){ s -= 4; el.style.fontSize = s + 'px'; } return s; }
+window.build = function (th) {
+  const [bg, lab, ink, em, pill, pillInk, glow] = P[th.bg || 'ink'];
+  const t = document.getElementById('t');
+  t.style.background = bg; t.style.color = ink;
+  const rays = `repeating-conic-gradient(from 0deg, ${ink}0F 0deg 4deg, transparent 4deg 12deg)`;
+  t.innerHTML = `
+    <div class="edge" style="top:150px">EK LARGE</div>
+    <div class="label" style="background:${lab};color:${ink}"></div>
+    <div class="rays" style="background:${rays};-webkit-mask:radial-gradient(circle, #000 0 22%, transparent 48%)"></div>
+    <div class="glow" style="background:radial-gradient(circle, ${glow} 0%, transparent 62%)"></div>
+    <div class="head"><div class="pill" style="background:${pill};color:${pillInk}">${th.kicker}</div>
+      ${th.no ? `<div class="no" style="border:3px solid ${em};color:${em}"><small>No.</small><b>${th.no}</b></div>` : ''}</div>
+    ${th.hindi ? `<div class="hi" style="color:${em}">${th.hindi}</div>` : ''}
+    <h1 class="title" id="ti">${th.title}</h1>
+    ${th.sub ? `<div class="sub" id="su" style="opacity:.92">${th.sub}</div>` : ''}
+    <div class="vis" id="vi"></div>
+    ${th.stamp ? `<div class="stamp" style="color:${th.stampColor || em};border-color:${th.stampColor || em}">${th.stamp}</div>` : ''}
+    <div class="edge" style="bottom:150px">@EK.LARGE</div>`;
+  t.querySelectorAll('.title em').forEach(e => e.style.color = em);
+  const ti = document.getElementById('ti');
+  if (!th.hindi) ti.style.top = '540px';
+  fit(ti, th.sub ? 420 : 470, th.max || 172, 96);
+  const su = document.getElementById('su');
+  if (su) su.style.top = (ti.offsetTop + ti.offsetHeight + 34) + 'px';
+  // Large Sahab fills the space left under the text (never touching it), anchored to the bottom of the label
+  const textBottom = su ? su.offsetTop + su.offsetHeight : ti.offsetTop + ti.offsetHeight;
+  const room = 1640 - textBottom - 50;
+  const size = Math.max(360, Math.min(th.size || 600, room));
+  const vis = th.face ? SAHAB.face(th.face, size) : SAHAB.icon(th.icon, Math.round(size * .75), ink);
+  const side = th.side ? `<div style="margin-left:-${Math.round(size * .1)}px;margin-bottom:6px">${SAHAB.icon(th.side, Math.round(size * .38), ink)}</div>` : '';
+  const vi = document.getElementById('vi');
+  vi.innerHTML = vis + side;
+  if (th.stamp && !th.side) vi.style.transform = `translateX(calc(-50% - ${Math.round(size * .2)}px))`;
+  return true;
+};
+</script>
+</body>
+</html>

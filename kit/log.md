@@ -19,3 +19,8 @@
 ## 15 Oct 2026, 8 pm (cover fix)
 - Reel 02 went live without its cover: Instagram ignored the separate cover image (videoThumbnailUrl).
 - Fix: the cover is now frame 0 of every reel (make_reel.py, kit/add_cover_frame.py for old files) and Metricool posts use videoCoverMilliseconds 0. Reels 03–13 re-encoded and their Metricool posts updated (new ids below).
+- Owner did not want the cover inside the video, so this was undone the same evening (see next entry).
+
+## 15 Oct 2026, 8:30 pm (separate thumbnails)
+- New: kit/thumb.html + kit/make_thumb.py make a separate poster thumbnail per reel (reels/ReelNN_Thumb.jpg); `thumb` added to specs reel04–13, plus specs/thumb02.json and thumb03.json.
+- Reel videos 03–13 restored to the clean versions (no cover frame). Metricool posts 03–13 updated to the clean video + videoThumbnailUrl = the new thumbnail (ids in the next line).
