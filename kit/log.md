@@ -15,3 +15,7 @@
 - New jokes/crimes used: dram/nose/finish/cask strength; Selfie Sommelier, Bill Vanisher, Story Repeater, Hug Distributor, Cab Captain; paper cup / steel glass / tulip glass ranking; bottle stored on its side, topping up without asking, sniffing like a bloodhound, finishing the last peg "so it's not wasted", pushing a friend who said no; guest rules (empty-handed, host's best bottle, clear one round, host yawning, "reached home" text); host checklist (water station, real glasses, dinner by ten, sofa made up, check how everyone gets home).
 - Plan count: 12 reels scheduled via Metricool for October so far.
 - Next free numbers: Reel 14, Field Guide No. 03 (Fri 30 Oct), Disapproves No. 04, Daru Dictionary No. 03.
+
+## 15 Oct 2026, 8 pm (cover fix)
+- Reel 02 went live without its cover: Instagram ignored the separate cover image (videoThumbnailUrl).
+- Fix: the cover is now frame 0 of every reel (make_reel.py, kit/add_cover_frame.py for old files) and Metricool posts use videoCoverMilliseconds 0. Reels 03–13 re-encoded and their Metricool posts updated (new ids below).

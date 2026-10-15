@@ -27,7 +27,7 @@ Tabla-led, quirky and catchy: a short repeating tabla hook with playful bass-dru
 4. Commit and push to `main`. Public link: `https://raw.githubusercontent.com/eklargeoffical-ctrl/ek-large-media/main/reels/<file>`.
 
 ## Scheduling (Metricool, brand id 6288777, timezone Asia/Kolkata)
-`createScheduledPost` with: providers [{network: instagram}], instagramData {type: REEL, showReelOnFeed: true}, media [raw mp4 link], videoThumbnailUrl [raw cover link], text = caption, publicationDate {dateTime: "YYYY-MM-DDT20:00:00", timezone: "Asia/Kolkata"}, autoPublish true, draft false. Then `getScheduledPosts` to confirm. The free plan allows about 20 posts a month: reels only; the owner posts carousels himself.
+`createScheduledPost` with: providers [{network: instagram}], instagramData {type: REEL, showReelOnFeed: true}, media [raw mp4 link], videoCoverMilliseconds 0 (the cover is baked in as frame 0 by make_reel.py; do NOT send videoThumbnailUrl, Instagram ignored it on Reel 02), text = caption, publicationDate {dateTime: "YYYY-MM-DDT20:00:00", timezone: "Asia/Kolkata"}, autoPublish true, draft false. Then `getScheduledPosts` to confirm. The free plan allows about 20 posts a month: reels only; the owner posts carousels himself.
 
 ## Weekly plan
 - Reels every day at 8:00 pm IST. Fridays = "Large Sahab's Field Guide: Friday Night Species" series.

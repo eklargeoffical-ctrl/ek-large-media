@@ -162,7 +162,14 @@ def main(spec_path, keep_frames=False):
     cover = os.path.join(REELS, f"{spec['id']}_Cover.jpg")
     frames(tl, os.path.join(work, 'frames'), cover, min(hook['end'] - .2, hook['start'] + 1.4))
     mp4 = os.path.join(REELS, f"{spec['id']}_{spec['slug']}.mp4")
-    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', os.path.join(work, 'frames', 'f%04d.jpg'), '-i', wav,
+    # the cover image is frame 0 of the video, and Metricool is told to use the frame at 0 ms as the cover
+    # (Instagram ignored the separate cover image on Reel 02, 15 Oct 2026)
+    frames_dir = os.path.join(work, 'frames')
+    for i in sorted(os.listdir(frames_dir), reverse=True):
+        os.rename(os.path.join(frames_dir, i), os.path.join(frames_dir, f'f{int(i[1:5]) + 1:04d}.jpg'))
+    shutil.copy(cover, os.path.join(frames_dir, 'f0000.jpg'))
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', str(FPS), '-i', os.path.join(frames_dir, 'f%04d.jpg'), '-i', wav,
+                    '-filter_complex', f'[1:a]adelay={1000 / FPS:.3f}:all=1[a]', '-map', '0:v', '-map', '[a]',
                     '-c:v', 'libx264', '-preset', 'slow', '-crf', '18', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-movflags', '+faststart',
                     '-c:a', 'aac', '-b:a', '192k', '-ar', '44100', '-shortest', mp4], check=True)
     json.dump(tl, open(os.path.join(work, 'timeline.json'), 'w'), indent=1)
