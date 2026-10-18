@@ -26,3 +26,9 @@
 - Reel videos 03–13 restored to the clean versions (no cover frame). Metricool posts 03–13 updated to the clean video + videoThumbnailUrl = the new thumbnail (ids in the next line).
 - Metricool ids after the thumbnail update (all PENDING 20:00 IST, clean video + new thumbnail): 03=396906273, 04=396906390, 05=396906444, 06=396906508, 07=396906570, 08=396906630, 09=396906734, 10=396906839, 11=396906892, 12=396906943, 13=396907003.
 - Watch: Reel 02 ignored its cover. Check on 16 Oct that Reel 03 shows Reel03_Thumb.jpg as its cover.
+
+## 18 Oct 2026 (autopilot, Sunday run)
+- Window: day after the last scheduled reel (Mon 26 Oct, Reel 13) up to Mon 26 Oct = empty. Nothing new made or scheduled.
+- Checked in Metricool (getScheduledPosts 18 Oct – 8 Nov): 9 reels PENDING at 20:00 IST, 18–26 Oct (ids 396906444 … 396907003), all as logged on 15 Oct. No changes made.
+- Carousels: none due (no Tue/Thu/Sat in the window). Already with the owner: Car22 Bar Cart Starter Kit (Thu 22 Oct), Car24 Ghar Party Host's Checklist (Sat 24 Oct). Tue 20 Oct = Chakna Tier List (from 15 Oct).
+- Next run (Sun 25 Oct): window Tue 27 Oct – Mon 2 Nov. Next free numbers unchanged: Reel 14, Field Guide No. 03 (Fri 30 Oct), Disapproves No. 04, Daru Dictionary No. 03. Carousels due Tue 27, Thu 29, Sat 31 Oct.
