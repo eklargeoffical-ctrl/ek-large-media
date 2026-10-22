@@ -347,7 +347,7 @@ window.render = function (t, frame) {
       const ex = el.querySelector('.ex'); const k = ease((u - QZ.rv - .35) / .6); ex.style.opacity = k; ex.style.transform = `translateY(${(1 - k) * 24}px)`;
     }
     if (typ === 'beat') {
-      el.querySelectorAll('.gl').forEach((g, k) => { const p = parseFloat(g.dataset.pop), q = back((u - p) / .35); g.style.opacity = clamp((u - p) / .12); g.style.transform = `translateY(${(1 - q) * -60}px) rotate(${c.wobble ? Math.sin(t * 3 + k) * 4 : 0}deg)`; g.querySelectorAll('.lnx').forEach(l => l.setAttribute('stroke', G)); });
+      el.querySelectorAll('.gl').forEach((g, k) => { const p = parseFloat(g.dataset.pop), q = back((u - p) / .35); g.style.opacity = clamp((u - p) / .12); g.style.transform = `translateY(${(1 - q) * -60}px) rotate(${c.wobble ? Math.sin(t * 3 + k) * 4 : 0}deg)`; g.querySelectorAll('.liq').forEach(l => { l.style.opacity = p === 0 ? 1 : clamp((u - p - .15) / .3); }); });
       const R = c.react || {};
       el.querySelector('.sm').innerHTML = rig({ raise: (R.raise || 0) * ease((u - 1.4) / .5), brow2: R.brow2 !== undefined ? R.brow2 * ease((u - 1.4) / .5) : undefined, mouth: (R.mouth || 0) * ease((u - 1.5) / .4), look: R.look || 0, smile: R.smile || 0, blink: (u > 2.6 && u < 2.72) ? 1 : 0 }, 240);
     }
@@ -392,10 +392,10 @@ window.cover = function () {
       ${medal(1360, 180)}`;
   } else if (K.type === 'film') {
     const g = 7, w = 104, gap = 12, total = g * w + (g - 1) * gap;
-    body = `<div style="position:absolute;left:${540 - total / 2}px;top:820px;width:${total}px;height:220px">${[...Array(g)].map((_, k) => `<div style="position:absolute;left:${k * (w + gap)}px;bottom:0;width:${w}px;transform:rotate(${(k % 2 ? 1 : -1) * k * .8}deg)"><svg viewBox="60 190 280 320" width="${w}" height="${w * 320 / 280}">${GLASS.rocks(LIQ.amber)}</svg></div>`).join('')}</div>
-      <div style="position:absolute;left:150px;right:150px;top:1046px;height:2px;background:rgba(217,164,65,.5)"></div>
-      ${K.note ? `<div class="serif" style="position:absolute;top:1100px;left:110px;right:110px;text-align:center;font-style:italic;font-size:50px;color:var(--honey)">${K.note}</div>` : ''}
-      ${medal(1250, 240, { raise: 1, brow2: .2, mouth: .5 })}`;
+    body = `<div style="position:absolute;left:${540 - total / 2}px;top:690px;width:${total}px;height:220px">${[...Array(g)].map((_, k) => `<div style="position:absolute;left:${k * (w + gap)}px;bottom:0;width:${w}px;transform:rotate(${(k % 2 ? 1 : -1) * k * .8}deg)"><svg viewBox="60 190 280 320" width="${w}" height="${w * 320 / 280}">${GLASS.rocks(LIQ.amber)}</svg></div>`).join('')}</div>
+      <div style="position:absolute;left:150px;right:150px;top:916px;height:2px;background:rgba(217,164,65,.5)"></div>
+      ${K.note ? `<div class="serif" style="position:absolute;top:970px;left:110px;right:110px;text-align:center;font-style:italic;font-size:50px;color:var(--honey)">${K.note}</div>` : ''}
+      ${medal(1120, 240, { raise: 1, brow2: .2, mouth: .5 })}`;
   }
   d.innerHTML = title + body;
   document.querySelectorAll('.scene').forEach(e => e.style.display = 'none'); root.appendChild(d);
