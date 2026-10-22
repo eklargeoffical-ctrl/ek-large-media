@@ -32,3 +32,10 @@
 - Checked in Metricool (getScheduledPosts 18 Oct – 8 Nov): 9 reels PENDING at 20:00 IST, 18–26 Oct (ids 396906444 … 396907003), all as logged on 15 Oct. No changes made.
 - Carousels: none due (no Tue/Thu/Sat in the window). Already with the owner: Car22 Bar Cart Starter Kit (Thu 22 Oct), Car24 Ghar Party Host's Checklist (Sat 24 Oct). Tue 20 Oct = Chakna Tier List (from 15 Oct).
 - Next run (Sun 25 Oct): window Tue 27 Oct – Mon 2 Nov. Next free numbers unchanged: Reel 14, Field Guide No. 03 (Fri 30 Oct), Disapproves No. 04, Daru Dictionary No. 03. Carousels due Tue 27, Thu 29, Sat 31 Oct.
+
+## 22 Oct 2026 (new format: Large Sahab Productions films)
+- Owner's decision: fully automatic, no voiceover, no ElevenLabs credits, no carousels, owner not involved. Engine in kit/film (FORMAT.md, BACKLOG.md); autopilot rewritten for films with a 20-posts-per-month Metricool cap.
+- Why: 8 slide reels gave 2 followers; 65–90% swiped away in 3 s; average watch 2–4 s of 30 s.
+- Films made: 01 Bas Ek (Fri 23 Oct), 02 Main Theek Hoon (Sat 24), 03 Papa Ko Mat Batana (Sun 25), 04 Chakna Chor (Mon 26). They replace old-style Reels 10–13 in the same Metricool slots.
+- Backlog next: 05 Cab Book Kar, 06 Ek Gaana Aur, 07 Last Wala, 08 Shaadi Ka Bar Counter, 09 Mummy Aa Gayi, 10 Bas 10 Minute (Sun 1 Nov), 11 Diwali Ki Raat (Fri 6 Nov).
+- October Metricool count after this: 12 (Reels 02–09 + Films 01–04); room for 8 more in October.

@@ -1,0 +1,105 @@
+{
+ "times": {
+  "night": [
+   1.2,
+   3.4
+  ],
+  "beats": [
+   [
+    3.4,
+    5.0
+   ],
+   [
+    5.0,
+    6.6
+   ],
+   [
+    6.6,
+    8.2
+   ]
+  ],
+  "sahab": [
+   8.2,
+   10.8
+  ],
+  "end": [
+   10.8,
+   13.6
+  ]
+ },
+ "total": 13.6,
+ "vo": [],
+ "id": "Film01",
+ "slug": "BasEk",
+ "date": "2026-10-23T20:00:00",
+ "seed": 11,
+ "root": 73.42,
+ "hook": "Har group mein ek aisa dost hota hai…",
+ "title_hi": "बस एक",
+ "title_en": "BAS EK",
+ "tagline": "Shuru hui 9 baje. Khatam hui 2 baje.",
+ "night": {
+  "lines": [
+   "Ek raat.",
+   "Ek dost.",
+   "Ek vaada…"
+  ],
+  "at": [
+   1.3,
+   1.95,
+   2.6
+  ]
+ },
+ "beats": [
+  {
+   "label": "RAAT KE",
+   "time": "9:00 PM",
+   "line": "“Bas ek.”",
+   "glasses": 1,
+   "mood": "amber",
+   "pop": [
+    3.65
+   ]
+  },
+  {
+   "label": "RAAT KE",
+   "time": "11:30 PM",
+   "line": "“Bas ek… aur.”",
+   "glasses": 4,
+   "mood": "plum",
+   "pop": [
+    5.25,
+    5.43,
+    5.61,
+    5.79
+   ]
+  },
+  {
+   "label": "SUBAH KE",
+   "time": "2:07 AM",
+   "line": "“Main bilkul theek hoon.”",
+   "glasses": 7,
+   "mood": "night",
+   "wobble": true,
+   "pop": [
+    6.85,
+    6.97,
+    7.09,
+    7.21,
+    7.33,
+    7.45,
+    7.57
+   ]
+  }
+ ],
+ "sahab": {
+  "line": "“Beta… yeh EK tha?”",
+  "at": 8.55,
+  "dur": 1.5
+ },
+ "end": {
+  "line1": "Tag the friend who said “bas ek”.",
+  "line2": "PAANI BEECH MEIN. GAADI NAHI."
+ },
+ "caption": "Har group mein ek aisa dost hota hai: “Bas ek.” 🥃\n\nLarge Sahab Productions presents: BAS EK. Shuru hui 9 baje. Khatam hui 2 baje.\n\nTag the friend who said “bas ek” last Saturday.\n\nPaani beech mein. Never drink and drive.\n\n#BasEk #LargeSahab #EkLarge #DesiHumour #GharParty #FridayNight"
+}
