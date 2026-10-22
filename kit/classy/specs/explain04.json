@@ -1,0 +1,136 @@
+{
+ "id": "Explain04",
+ "slug": "GinAndTonicStory",
+ "date": "2026-10-26",
+ "prog": "F",
+ "bpm": 78,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "टॉनिक पे ‘इंडियन’ क्यों?",
+ "title": "Why does tonic say <i>‘Indian’?</i>",
+ "sub": "A bitter medicine, an empire, and a famous drink.",
+ "badge": "COCKTAIL STORY · 04",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.4,
+   "art": {
+    "main": "apothecary",
+    "side": "bark",
+    "liq": "tonic"
+   },
+   "kicker": "1800s · BRITISH INDIA",
+   "head": "Quinine.",
+   "sub": "The malaria medicine everyone hated.",
+   "body": "It came from cinchona bark and tasted horribly bitter."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "art": {
+    "main": "tall",
+    "liq": "tonic",
+    "over": "bubbles"
+   },
+   "kicker": "28 MAY 1858",
+   "head": "<span style=\"color:var(--honey)\">1858</span>",
+   "head_size": 150,
+   "sub": "Erasmus Bond patents a quinine tonic water.",
+   "body": "Quinine in fizzy water. Still bitter, but easier to drink."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "art": {
+    "main": "print",
+    "word": "gin and tonic"
+   },
+   "kicker": "CALCUTTA",
+   "head": "<span style=\"color:var(--honey)\">1868</span>",
+   "head_size": 150,
+   "sub": "‘Gin and tonic’ appears in print for the first time.",
+   "body": "In the Oriental Sporting Magazine, published in Calcutta."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "art": {
+    "main": "bottle",
+    "label": [
+     "INDIAN",
+     "TONIC"
+    ],
+    "liq": "tonic"
+   },
+   "kicker": "THE NAME STICKS",
+   "head": "<span style=\"color:var(--honey)\">1870s</span>",
+   "head_size": 150,
+   "sub": "‘Indian Tonic Water’ goes on sale.",
+   "body": "Made for the British in India. Check any tonic label today."
+  },
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "tall",
+    "liq": "gin",
+    "over": "bubbles",
+    "side": "magnifier"
+   },
+   "myth": "A G&T protected soldiers from malaria.",
+   "truth": "Quinine did. The drink, not really.",
+   "body": "Today’s tonic has very little quinine. You’d need litres for a medical dose."
+  },
+  {
+   "type": "recipe",
+   "dur": 6.4,
+   "art": {
+    "main": "copa",
+    "liq": "gin",
+    "over": "bubbles",
+    "side": "lime"
+   },
+   "kicker": "LARGE SAHAB’S POUR",
+   "head": "Gin & Tonic",
+   "rows": [
+    [
+     "1",
+     "Glass full of ice"
+    ],
+    [
+     "50 ml",
+     "Gin"
+    ],
+    [
+     "150 ml",
+     "Chilled tonic water"
+    ],
+    [
+     "1",
+     "Lime wedge"
+    ]
+   ],
+   "note_label": "THE TRICK",
+   "note": "Pour the tonic slowly, down a spoon. Keep the fizz."
+  }
+ ],
+ "outro": {
+  "line": "Har G&T mein <i>thoda India.</i>",
+  "cta": "Tag the friend who orders a G&T every single time.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "Why tonic says <i>‘Indian’</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "copa",
+   "liq": "gin",
+   "over": "bubbles",
+   "side": "lime"
+  },
+  "note": "The gin & tonic’s Indian story"
+ },
+ "caption": "Why does tonic water say “Indian”? 🍸 The real story of the gin and tonic, from British India.\n\nQuinine, from cinchona bark, was the bitter malaria medicine of British India. In 1858 Erasmus Bond patented a quinine tonic water. “Gin and tonic” first appears in print in 1868, in a Calcutta sporting magazine. In the 1870s “Indian Tonic Water” went on sale, and the name stuck.\n\nMyth buster: the G&T didn’t cure malaria. Today’s tonic has far too little quinine for that.\n\nLarge Sahab’s G&T: a glass full of ice, 50 ml gin, 150 ml chilled tonic, a lime wedge.\n\nSave this for your next G&T, and tag the friend who orders one every single time.\n\nDrink slow. Never drink and drive. 18+\n\n#gin #gintonic #cocktails #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 31
+}

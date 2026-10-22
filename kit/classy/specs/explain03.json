@@ -1,0 +1,116 @@
+{
+ "id": "Explain03",
+ "slug": "WhiskyCameToIndia",
+ "date": "2026-10-25",
+ "prog": "D",
+ "shift": -2,
+ "bpm": 72,
+ "timeline": true,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "दो सौ साल की कहानी",
+ "title": "How whisky <i>came to India</i>",
+ "sub": "Two hundred years in forty seconds.",
+ "badge": "HISTORY · 03",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.6,
+   "tl": "1820s",
+   "art": {
+    "main": "hills"
+   },
+   "kicker": "KASAULI · HIMACHAL",
+   "head": "<span style=\"color:var(--honey)\">1820s</span>",
+   "head_size": 150,
+   "sub": "A British brewer, Edward Dyer, sets up in the hills.",
+   "body": "His brewery site later became India’s first distillery."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "tl": "1982",
+   "art": {
+    "main": "still"
+   },
+   "kicker": "BENGALURU",
+   "head": "<span style=\"color:var(--honey)\">1982</span>",
+   "head_size": 150,
+   "sub": "Amrut starts making whisky from malted barley.",
+   "body": "Most Indian ‘whisky’ was made from molasses. This was different."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "tl": "2004",
+   "art": {
+    "main": "bottle",
+    "side": "thistle"
+   },
+   "kicker": "GLASGOW · SCOTLAND",
+   "head": "<span style=\"color:var(--honey)\">2004</span>",
+   "head_size": 150,
+   "sub": "India’s first single malt launches. In Scotland.",
+   "body": "Amrut debuted in Glasgow on 24 August 2004. Bold move."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "tl": "2023",
+   "art": {
+    "main": "trophy"
+   },
+   "kicker": "INDRI · HARYANA",
+   "head": "<span style=\"color:var(--honey)\">2023</span>",
+   "head_size": 150,
+   "sub": "Indri wins ‘Best in Show’ at the Whiskies of the World Awards.",
+   "body": "A distillery from a Haryana town, on the world stage."
+  },
+  {
+   "type": "info",
+   "dur": 5.4,
+   "tl": "2025",
+   "art": {
+    "main": "seal"
+   },
+   "kicker": "THE NEXT CHAPTER",
+   "head": "<span style=\"color:var(--honey)\">2025</span>",
+   "head_size": 150,
+   "sub": "Indian malt makers apply for a GI tag.",
+   "body": "Like Darjeeling tea, Indian single malt wants a protected name."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "tl": "TODAY",
+   "stat": "No.1",
+   "kicker": "TODAY",
+   "head": "India drinks more whisky than any other country.",
+   "wrap": true,
+   "head_size": 68,
+   "tip": "Hum sirf peete nahi, banate bhi hain."
+  }
+ ],
+ "outro": {
+  "line": "Indian whisky, <i>world class.</i>",
+  "cta": "Which Indian whisky story should Large Sahab tell next? Comment below.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "How whisky came <i>to India</i>",
+ "cover": {
+  "type": "timeline",
+  "art": {
+   "main": "hills"
+  },
+  "years": [
+   "1820s",
+   "1982",
+   "2004",
+   "2023",
+   "2025"
+  ]
+ },
+ "caption": "How did whisky come to India? 🇮🇳🥃 Two hundred years of Indian whisky history in 40 seconds.\n\n1820s: Edward Dyer sets up a brewery in Kasauli. The site later becomes India’s first distillery.\n1982: Amrut starts making whisky from malted barley in Bengaluru.\n2004: India’s first single malt, Amrut, launches in Glasgow.\n2023: Indri wins Best in Show at the Whiskies of the World Awards.\n2025: Indian malt makers apply for a GI tag.\nToday: India drinks more whisky than any other country.\n\nWhich Indian whisky story should Large Sahab tell next? Comment below 👇 and save this for your next mehfil.\n\nDrink slow. Never drink and drive. 18+\n\n#indianwhisky #whisky #singlemalt #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 24
+}

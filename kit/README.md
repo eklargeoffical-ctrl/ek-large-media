@@ -2,9 +2,11 @@
 
 Everything needed to make and schedule @ek.large content without the original chat.
 
-> **Current format (from 23 Oct 2026): Large Sahab Productions films.** See `film/FORMAT.md`, `film/BACKLOG.md` and
-> `AUTOPILOT.md`. No voiceover, no paid credits, no carousels; the owner is not involved. The sections below about
-> slide reels, carousels and the v2 tabla music describe the retired format and are kept for reference.
+> **Current format (from 23 Oct 2026): Large Sahab Explains, the classy format the owner approved on 22 Oct.**
+> See `classy/FORMAT.md`, `classy/BACKLOG.md` and `AUTOPILOT.md`. Slow explainers about whisky, spirits, cocktails and
+> etiquette plus an occasional short comedy film; dark speakeasy look, gold line-art, low lounge jazz; a designed cover
+> for every reel; five hashtags per caption. No voiceover, no paid credits, no carousels; the owner is not involved.
+> Everything below (films, slide reels, carousels, tabla music) describes retired formats and is kept for reference.
 
 ## The brand (never break these)
 - The character is always **Large Sahab** (never just "Sahab"): an illustrated silver-haired gentleman, white handlebar moustache, round glasses, maroon bandhgala. Faces: `wink` (approves), `dis` (disapproves), `shock`.

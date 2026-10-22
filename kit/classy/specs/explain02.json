@@ -1,0 +1,88 @@
+{
+ "id": "Explain02",
+ "slug": "WhiskyMyths",
+ "date": "2026-10-24",
+ "prog": "Eb",
+ "bpm": 74,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "दोस्त ने बोला था…",
+ "title": "5 whisky myths <i>you still believe</i>",
+ "sub": "Be honest. You believed number 2.",
+ "badge": "MYTH VS FACT · 02",
+ "cards": [
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "barrel"
+   },
+   "myth": "Older whisky is always better.",
+   "truth": "Age is time in the cask. Not a quality score.",
+   "body": "Cask, climate and the spirit matter more. Taste first, then look at the number."
+  },
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "pair"
+   },
+   "myth": "Darker whisky is older.",
+   "truth": "Colour comes from the cask. Sometimes from caramel.",
+   "body": "Many Scotch whiskies are allowed to add plain caramel colour, E150a."
+  },
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "rocks",
+    "over": "dropper"
+   },
+   "myth": "Water ruins good whisky.",
+   "truth": "A few drops can open it up.",
+   "body": "A 2017 study found a little water helps the flavour reach your nose.",
+   "tip": "Do boond. Bas."
+  },
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "bottle",
+    "mono": "12",
+    "side": "hourglass"
+   },
+   "myth": "Whisky keeps ageing in the bottle.",
+   "truth": "It stops ageing the day it is bottled.",
+   "body": "A 12-year-old bottled in 2010 is still a 12-year-old today."
+  },
+  {
+   "type": "myth",
+   "dur": 6.6,
+   "art": {
+    "main": "still"
+   },
+   "myth": "Single malt means one cask.",
+   "truth": "One distillery. 100% malted barley.",
+   "body": "A single malt can marry many casks, all from the same distillery."
+  }
+ ],
+ "outro": {
+  "line": "Ab dost ko <i>sahi gyaan</i> do.",
+  "cta": "Send this to the friend who says ‘darker means older’.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "5 whisky <i>myths</i>",
+ "cover": {
+  "type": "list",
+  "items": [
+   "Older is always better",
+   "Darker means older",
+   "Water ruins it",
+   "It ages in the bottle",
+   "Single malt = one cask"
+  ]
+ },
+ "caption": "5 whisky myths most people still believe 🥃 Large Sahab busts them in 40 seconds.\n\n1. Older isn’t automatically better. The age only counts years in the cask.\n2. Darker doesn’t mean older. Colour comes from the cask, and many Scotch whiskies may add caramel colour.\n3. Water doesn’t ruin whisky. A few drops can open up the flavour.\n4. Whisky stops ageing once it’s bottled.\n5. Single malt means one distillery and 100% malted barley, not one cask.\n\nWhich one did you believe? Be honest in the comments 👇 Save this for your next whisky debate, and send it to the friend who says “darker means older”.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #singlemalt #scotchwhisky #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 17
+}

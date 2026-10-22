@@ -1,0 +1,101 @@
+{
+ "id": "Explain07",
+ "slug": "TasteWhiskyLikeAPro",
+ "date": "2026-10-29",
+ "prog": "F",
+ "shift": -2,
+ "bpm": 72,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "पीना भी एक कला है",
+ "title": "Taste whisky <i>like a pro</i>",
+ "sub": "5 steps. No snobbery. More flavour.",
+ "badge": "ETIQUETTE · 07",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.2,
+   "art": {
+    "main": "tulip",
+    "over": "light",
+    "side": "eye"
+   },
+   "kicker": "STEP 1",
+   "head": "Look.",
+   "head_size": 150,
+   "sub": "Hold it up to the light.",
+   "body": "The colour comes mostly from the cask, so don’t judge age by colour."
+  },
+  {
+   "type": "info",
+   "dur": 5.2,
+   "art": {
+    "main": "tulip",
+    "over": "swirl"
+   },
+   "kicker": "STEP 2",
+   "head": "Swirl.",
+   "head_size": 150,
+   "sub": "Gently. Watch the drops run down.",
+   "body": "Those slow streaks on the glass are called ‘legs’ or ‘tears’."
+  },
+  {
+   "type": "info",
+   "dur": 5.2,
+   "art": {
+    "main": "tulip",
+    "over": "aroma"
+   },
+   "kicker": "STEP 3",
+   "head": "Nose.",
+   "head_size": 150,
+   "sub": "Small sniffs, lips slightly open.",
+   "body": "Don’t dive in. Hold the glass just below your nose; the alcohol hits first."
+  },
+  {
+   "type": "info",
+   "dur": 5.2,
+   "art": {
+    "main": "tulip",
+    "side": "stopwatch"
+   },
+   "kicker": "STEP 4",
+   "head": "Sip.",
+   "head_size": 150,
+   "sub": "Hold it on your tongue for a few seconds.",
+   "body": "Let it coat your mouth, swallow, then notice the ‘finish’."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "tulip",
+    "over": "dropper",
+    "over_y": 152
+   },
+   "kicker": "STEP 5",
+   "head": "Add water.",
+   "head_size": 150,
+   "sub": "A few drops. Then taste again.",
+   "body": "A 2017 study found a little water can bring the flavour forward.",
+   "tip": "Jaldi kis baat ki hai?"
+  }
+ ],
+ "outro": {
+  "line": "Sip slow. <i>Taste more.</i>",
+  "cta": "Save this for your next tasting. Send it to the friend who gulps.",
+  "pill": "SIP SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "Taste whisky <i>like a pro</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "tulip",
+   "over": "aroma"
+  },
+  "note": "5 steps · no snobbery"
+ },
+ "caption": "How to taste whisky like a pro 🥃 5 simple steps: look, swirl, nose, sip, add water.\n\nLook: hold it to the light. The colour mostly comes from the cask.\nSwirl: watch the legs run down the glass.\nNose: small sniffs, lips slightly open.\nSip: hold it on your tongue for a few seconds.\nWater: add a few drops and taste again. Science says it can bring the flavour forward.\n\nSave this for your next whisky tasting 🔖 and send it to the friend who gulps.\n\nSip slow. Never drink and drive. 18+\n\n#whisky #whiskytasting #singlemalt #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 52
+}

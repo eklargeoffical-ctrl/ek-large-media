@@ -1,0 +1,95 @@
+{
+ "id": "Explain08",
+ "slug": "IsYourWhiskyReallyWhisky",
+ "date": "2026-10-30",
+ "prog": "Eb",
+ "shift": -1,
+ "bpm": 76,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "सच जानना है?",
+ "title": "Is your whisky <i>really whisky?</i>",
+ "sub": "The answer is on the back label.",
+ "badge": "WHISKY TRUTH · 08",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.4,
+   "stat": "No.1",
+   "kicker": "BY VOLUME",
+   "head": "India drinks more whisky than any other country.",
+   "wrap": true,
+   "head_size": 68,
+   "body": "So what’s actually in the bottle?"
+  },
+  {
+   "type": "info",
+   "dur": 6.0,
+   "stat": "~90%",
+   "stat_num": 90,
+   "stat_size": 168,
+   "stat_pre": "~",
+   "stat_suf": "%",
+   "stat_note": "INDIA · 2004",
+   "kicker": "MADE FROM MOLASSES",
+   "head": "of what India sold as ‘whisky’ wasn’t made from grain.",
+   "wrap": true,
+   "head_size": 62,
+   "body": "Molasses is what’s left after making sugar. It’s the base for rum, too."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "eu"
+   },
+   "kicker": "IN EUROPE",
+   "head": "Whisky must be made from grain.",
+   "wrap": true,
+   "head_size": 72,
+   "body": "So very little Indian ‘whisky’ can be sold as whisky in the EU."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "trophy"
+   },
+   "kicker": "LONDON · 2024",
+   "head": "But Indian malts are winning.",
+   "wrap": true,
+   "head_size": 72,
+   "body": "Godawan 100 was crowned ‘Single Malt Whisky of the Year’ at the London Spirits Competition 2024."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "bottle",
+    "side": "magnifier"
+   },
+   "kicker": "LARGE SAHAB’S TIP",
+   "head": "Read the back label.",
+   "wrap": true,
+   "head_size": 80,
+   "body": "Look for ‘malt’, ‘grain’ or ‘single malt’. That tells you it started as grain."
+  }
+ ],
+ "outro": {
+  "line": "Bottle uthao, <i>label padho.</i>",
+  "cta": "Check yours and tell us what it says in the comments.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "Is it <i>really whisky?</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "bottle",
+   "side": "magnifier"
+  },
+  "note": "Check your label after this."
+ },
+ "caption": "Is your whisky really whisky? 🥃 India drinks more whisky than any country on earth, yet a lot of it isn’t made from grain.\n\nIn 2004, about 90% of what India sold as “whisky” was made from molasses, the leftover from sugar making that rum is made from. In Europe, whisky must be made from grain, so very little Indian “whisky” can be sold as whisky there. Meanwhile, Indian single malts are winning world awards.\n\nLarge Sahab’s tip: read the back label. Look for “malt”, “grain” or “single malt”.\n\nCheck your bottle and tell us below what it says 👇 Save this and share it with your whisky group.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #indianwhisky #singlemalt #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 59
+}

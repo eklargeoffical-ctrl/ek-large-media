@@ -1,0 +1,119 @@
+{
+ "id": "Explain09",
+ "slug": "OldFashionedExplained",
+ "date": "2026-10-31",
+ "prog": "D",
+ "shift": -1,
+ "bpm": 74,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "एक क्लासिक की कहानी",
+ "title": "The Old Fashioned, <i>explained</i>",
+ "sub": "The original 1806 cocktail, still a classic.",
+ "badge": "COCKTAIL CLASS · 09",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "print",
+    "word": "cocktail"
+   },
+   "kicker": "HUDSON · NEW YORK",
+   "head": "<span style=\"color:var(--honey)\">1806</span>",
+   "head_size": 150,
+   "sub": "A newspaper defines a ‘cocktail’ for the first time.",
+   "body": "Spirit, sugar, water and bitters. That’s it."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "rocks",
+    "liq": "dark"
+   },
+   "kicker": "THE NAME",
+   "head": "<span style=\"color:var(--honey)\">1880</span>",
+   "head_size": 150,
+   "sub": "Drinkers ask for it the ‘old-fashioned’ way.",
+   "body": "As fancy new cocktails arrived, the original got its name. It’s in print by 1880."
+  },
+  {
+   "type": "recipe",
+   "dur": 6.6,
+   "art": {
+    "main": "rocks",
+    "liq": "dark",
+    "side": "peel"
+   },
+   "kicker": "THE IBA RECIPE",
+   "head": "Old Fashioned",
+   "rows": [
+    [
+     "45 ml",
+     "Bourbon or rye whiskey"
+    ],
+    [
+     "1",
+     "Sugar cube"
+    ],
+    [
+     "Few dashes",
+     "Aromatic bitters"
+    ],
+    [
+     "Few dashes",
+     "Plain water"
+    ]
+   ],
+   "note_label": "GARNISH",
+   "note": "Orange slice or zest, and a cocktail cherry."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "rocks",
+    "liq": "none",
+    "over": "cube",
+    "side": "dasher"
+   },
+   "kicker": "METHOD · 1",
+   "head": "Soak & muddle.",
+   "sub": "Sugar cube, bitters, a dash of water.",
+   "body": "Soak the cube in the glass, then muddle until it dissolves."
+  },
+  {
+   "type": "info",
+   "dur": 5.8,
+   "art": {
+    "main": "rocks",
+    "liq": "amber",
+    "over": "spoon"
+   },
+   "kicker": "METHOD · 2",
+   "head": "Ice. Whiskey. Stir.",
+   "sub": "Fill with ice, add the whiskey, stir gently.",
+   "body": "Garnish with orange and a cherry. Sip slowly.",
+   "tip": "Shake mat karna. Yeh Old Fashioned hai."
+  }
+ ],
+ "outro": {
+  "line": "Classic hai, <i>classic rahega.</i>",
+  "cta": "Save it for your next home bar night.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "The Old <i>Fashioned</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "rocks",
+   "liq": "dark",
+   "side": "peel"
+  },
+  "note": "The original 1806 cocktail"
+ },
+ "caption": "The Old Fashioned, explained 🥃 The original 1806 cocktail, still a bar classic.\n\nIn 1806 a New York newspaper defined a “cocktail” as spirit, sugar, water and bitters. As fancier drinks arrived, people asked for it the “old-fashioned” way, and by 1880 the name was in print.\n\nThe IBA recipe: 45 ml bourbon or rye whiskey, 1 sugar cube, a few dashes of aromatic bitters, a few dashes of plain water. Soak the sugar with the bitters and water, muddle, add ice and the whiskey, stir gently. Garnish with orange and a cocktail cherry.\n\nSave this for your next home bar night 🔖 and tag the friend who makes the best Old Fashioned.\n\nDrink slow. Never drink and drive. 18+\n\n#oldfashioned #cocktails #whiskey #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 66
+}

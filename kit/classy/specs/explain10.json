@@ -1,0 +1,93 @@
+{
+ "id": "Explain10",
+ "slug": "BasEk",
+ "date": "2026-11-01",
+ "prog": "F",
+ "shift": 1,
+ "bpm": 80,
+ "series": "LARGE SAHAB PRESENTS",
+ "hindi": "बस एक",
+ "title": "Bas <i>ek.</i>",
+ "title_size": 230,
+ "sub": "A short film about the biggest lie at every party.",
+ "badge": "A SHORT FILM · 10",
+ "cards": [
+  {
+   "type": "beat",
+   "dur": 4.2,
+   "label": "RAAT KE",
+   "time": "9:00 PM",
+   "quote": "“Bas ek.”",
+   "glasses": 1,
+   "stage": "Large Sahab nods. Fair enough.",
+   "react": {
+    "smile": 0.6
+   }
+  },
+  {
+   "type": "beat",
+   "dur": 4.2,
+   "label": "RAAT KE",
+   "time": "10:30 PM",
+   "quote": "“Bas ek… aur.”",
+   "glasses": 3,
+   "from": 1,
+   "stage": "Large Sahab raises one eyebrow.",
+   "react": {
+    "raise": 1,
+    "brow2": 0
+   }
+  },
+  {
+   "type": "beat",
+   "dur": 4.2,
+   "label": "RAAT KE",
+   "time": "12:00 AM",
+   "quote": "“Yeh last hai. Pakka.”",
+   "glasses": 5,
+   "from": 3,
+   "stage": "Large Sahab starts counting.",
+   "react": {
+    "raise": 0.6,
+    "look": 0.7
+   }
+  },
+  {
+   "type": "beat",
+   "dur": 4.4,
+   "label": "SUBAH KE",
+   "time": "2:07 AM",
+   "quote": "“Main bilkul theek hoon.”",
+   "glasses": 7,
+   "from": 5,
+   "wobble": true,
+   "stage": "Large Sahab has stopped counting.",
+   "react": {
+    "raise": 1,
+    "mouth": 0.6
+   }
+  },
+  {
+   "type": "verdict",
+   "dur": 4.6,
+   "quote": "Beta… yeh <i>ek</i> tha?",
+   "sub": "Ek ka matlab ek. Paani beech mein."
+  }
+ ],
+ "outro": {
+  "line": "Bas ek. <i>Matlab ek.</i>",
+  "cta": "Tag the friend whose ‘bas ek’ never ends.",
+  "pill": "WATER BETWEEN EVERY PEG"
+ },
+ "cover_title": "Bas <i>ek.</i>",
+ "cover": {
+  "type": "film",
+  "series": "A LARGE SAHAB SHORT FILM",
+  "size": 230,
+  "note": "The biggest lie at every party"
+ },
+ "caption": "Bas ek. 🥃 The most broken promise at every party.\n\n9:00 PM: “Bas ek.”\n10:30 PM: “Bas ek… aur.”\n12:00 AM: “Yeh last hai. Pakka.”\n2:07 AM: “Main bilkul theek hoon.”\nLarge Sahab: “Beta… yeh ek tha?”\n\nTag the friend whose “bas ek” never ends 😄\n\nEk ka matlab ek. Water between every peg, and never drink and drive. 18+\n\n#party #friends #desihumor #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 73
+}

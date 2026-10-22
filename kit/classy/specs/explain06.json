@@ -1,0 +1,86 @@
+{
+ "id": "Explain06",
+ "slug": "ScotchBourbonIrishQuiz",
+ "date": "2026-10-28",
+ "prog": "Eb",
+ "shift": 2,
+ "bpm": 82,
+ "series": "LARGE SAHAB’S BAR QUIZ",
+ "hindi": "आप कितना जानते हो?",
+ "title": "Scotch, Bourbon <i>or Irish?</i>",
+ "sub": "4 clues. 3 seconds each. Keep score.",
+ "badge": "BAR QUIZ · 06",
+ "cards": [
+  {
+   "type": "quiz",
+   "dur": 7.6,
+   "kicker": "CLUE 1",
+   "clue": "By law, it must be at least <i>51% corn.</i>",
+   "options": [
+    "SCOTCH",
+    "BOURBON",
+    "IRISH"
+   ],
+   "answer": 1,
+   "explain": "<span class=\"hon\">Bourbon.</span> At least 51% corn, aged in new charred oak, made in the USA."
+  },
+  {
+   "type": "quiz",
+   "dur": 7.6,
+   "kicker": "CLUE 2",
+   "clue": "It must age at least <i>3 years in oak,</i> in one country only.",
+   "options": [
+    "SCOTCH",
+    "BOURBON",
+    "IRISH"
+   ],
+   "answer": 0,
+   "explain": "<span class=\"hon\">Scotch.</span> Minimum three years in oak casks, in Scotland."
+  },
+  {
+   "type": "quiz",
+   "dur": 7.6,
+   "kicker": "CLUE 3",
+   "clue": "It’s famous for being <i>distilled three times.</i>",
+   "options": [
+    "SCOTCH",
+    "BOURBON",
+    "IRISH"
+   ],
+   "answer": 2,
+   "explain": "<span class=\"hon\">Irish whiskey.</span> Triple distillation is its classic style: lighter and smoother."
+  },
+  {
+   "type": "quiz",
+   "dur": 7.6,
+   "kicker": "CLUE 4",
+   "clue": "It tastes like <i>a campfire,</i> thanks to peat smoke from Islay.",
+   "options": [
+    "SCOTCH",
+    "BOURBON",
+    "IRISH"
+   ],
+   "answer": 0,
+   "explain": "<span class=\"hon\">Scotch.</span> Islay is a Scottish island, and peat smoke gives its whisky that smoky taste."
+  }
+ ],
+ "outro": {
+  "line": "Kitne sahi hue? <i>Comment karo.</i>",
+  "cta": "Send this to the friend who calls every whisky ‘Scotch’.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "Scotch, Bourbon <i>or Irish?</i>",
+ "cover": {
+  "type": "quiz",
+  "options": [
+   "SCOTCH",
+   "BOURBON",
+   "IRISH"
+  ],
+  "size": 112
+ },
+ "caption": "Scotch, Bourbon or Irish? 🥃 4 clues, 3 seconds each. How many did you get right?\n\nComment your score out of 4 👇 and send this to the friend who calls every whisky “Scotch”.\n\nAnswers: Bourbon must be at least 51% corn. Scotch must age at least 3 years in oak, in Scotland. Irish whiskey is famous for triple distillation. And the smoky peat of Islay? That’s Scotch.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #bourbon #scotch #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 45
+}
