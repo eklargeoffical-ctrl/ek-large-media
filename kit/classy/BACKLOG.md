@@ -1,6 +1,6 @@
 # Large Sahab Explains: backlog (take the next unused idea; mark it used in kit/log.md)
 
-Made: 01 What's in your glass · 02 Whisky myths · 03 How whisky came to India · 04 Why tonic says 'Indian' ·
+Made (22–31 Oct): 01 What's in your glass · 02 Whisky myths · 03 How whisky came to India · 04 Why tonic says 'Indian' ·
 05 What whisky names mean · 06 Scotch, Bourbon or Irish? (quiz) · 07 Taste whisky like a pro · 08 Is your whisky
 really whisky? · 09 The Old Fashioned · 10 Bas Ek (comedy).
 

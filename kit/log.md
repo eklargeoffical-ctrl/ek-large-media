@@ -40,3 +40,25 @@
 - Backlog next: 05 Cab Book Kar, 06 Ek Gaana Aur, 07 Last Wala, 08 Shaadi Ka Bar Counter, 09 Mummy Aa Gayi, 10 Bas 10 Minute (Sun 1 Nov), 11 Diwali Ki Raat (Fri 6 Nov).
 - October Metricool count after this: 12 (Reels 02–09 + Films 01–04); room for 8 more in October.
 - Metricool ids (Films 01–04, PENDING 20:00 IST, cover = FilmNN_Thumb.jpg): 01=403006528 (23 Oct), 02=403006582 (24 Oct), 03=403006658 (25 Oct), 04=403006712 (26 Oct).
+
+## 22 Oct 2026, evening (new format: Large Sahab Explains, the classy style)
+- Owner reviewed the poster films ("they look alike… transitions too fast… keep the music low") and approved a classy sample instead: slow explainers with gold line-art, low lounge jazz, a designed cover for every reel, SEO captions, a mix of facts (spirits, Indian whisky, brand history and name meanings, cocktails, etiquette) and some comedy. No voiceover, no paid credits, no logos or bottle photos.
+- Engine: kit/classy (classy.html, make_classy.py, preview.py, FORMAT.md, BACKLOG.md). Autopilot (kit/AUTOPILOT.md and the scheduled task prompt) switched to this format. kit/film is retired.
+- Instagram now allows five hashtags per post: every caption has exactly five.
+- Made and scheduled (20:00 IST, cover = ExplainNN_Cover.jpg via videoThumbnailUrl):
+  - Explain01 What’s actually in your glass? (WhatsInYourGlass) · Thu 22 Oct · Metricool 403087303
+  - Explain02 5 whisky myths you still believe (WhiskyMyths) · Fri 23 Oct · Metricool 403087373
+  - Explain03 How whisky came to India (WhiskyCameToIndia) · Sat 24 Oct · Metricool 403087589
+  - Explain04 Why does tonic say ‘Indian’? (GinAndTonicStory) · Sun 25 Oct · Metricool 403087810
+  - Explain05 What whisky names actually mean (WhiskyNamesMeaning) · Mon 26 Oct · Metricool 403087879
+  - Explain06 Scotch, Bourbon or Irish? (ScotchBourbonIrishQuiz) · Tue 27 Oct · Metricool 403087976
+  - Explain07 Taste whisky like a pro (TasteWhiskyLikeAPro) · Wed 28 Oct · Metricool 403088024
+  - Explain08 Is your whisky really whisky? (IsYourWhiskyReallyWhisky) · Thu 29 Oct · Metricool 403088128
+  - Explain09 The Old Fashioned, explained (OldFashionedExplained) · Fri 30 Oct · Metricool 403088198
+  - Explain10 Bas ek. (BasEk) · Sat 31 Oct · Metricool 403092862
+- At the owner's request (17:44) Explain 01 went to tonight, 22 Oct, replacing the old-style Reel 09 (Daru Dictionary No. 02, never posted), and every reel moved up a day. Films 01–04 were replaced in their Metricool slots; Films 05–09 were never made. Metricool updates keep the uuid and change the id; the ids above are current.
+- Fact sources: Wikipedia (Indian whisky, Kasauli Brewery and Distillery, Amrut, Indri, Indian Malt Whisky Association, Tonic water, Gin and tonic, Cocktail, Old fashioned, Bourbon whiskey, Irish whiskey, Johnnie Walker), Scotch Whisky Regulations 2009 and SWA guidance (3 years in oak; E150a allowed), Inside Science on the 2017 water-in-whisky study, Business Wire (Indri Best in Show 2023), Diageo India (Godawan 100, Single Malt Whisky of the Year, London Spirits Competition 2024), IBA (Old Fashioned), Cocktail Society and Country Life (G&T history), Mental Floss and The Scotsman (Gaelic name meanings).
+- Note for later: in June 2026 the Indian Malt Whisky Association launched a certification seal for Indian single malt (search results; verify before using).
+- Plan count: October = 17 Metricool posts (Reels 02–08 + Explain 01–10). November = 0 so far.
+- Next autopilot (Sun 25 Oct): window is Sun 1 – Mon 2 Nov → BACKLOG ideas 11 and 13 (keep 12, Diwali Ki Raat, for 5–7 Nov, made by the 1 Nov run).
+- Review page for the owner: https://claude.ai/artifact/YQ8BtaZTLjTq8NknANeipP · calendar: https://claude.ai/artifact/KpYyJf9qYzeFieeMt6FCB4
