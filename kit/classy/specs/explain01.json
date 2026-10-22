@@ -1,0 +1,113 @@
+{
+ "id": "Explain01",
+ "slug": "WhatsInYourGlass",
+ "seed": 21,
+ "bpm": 76,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "आपके गिलास में क्या है?",
+ "title": "What’s actually in your <i style=\"color:#E3B04B\">glass?</i>",
+ "sub": "Six drinks. One reel. Save it.",
+ "badge": "BAR KNOWLEDGE · 01",
+ "cover_title": "What’s in your <i style=\"color:#E3B04B\">glass?</i>",
+ "cards": [
+  {
+   "name": "Whisky",
+   "name_hi": "व्हिस्की",
+   "from": "Grain: barley, corn, rye or wheat",
+   "fact": "Aged in wooden casks. Most of its colour comes from the wood.",
+   "glass": "rocks",
+   "liq": "amber",
+   "src": "barley",
+   "tip": "Paani ki do boond. Science hai."
+  },
+  {
+   "name": "Rum",
+   "name_hi": "रम",
+   "from": "Sugarcane: molasses or fresh cane juice",
+   "fact": "Molasses is what’s left after making sugar. Nothing goes to waste.",
+   "glass": "rocks",
+   "liq": "dark",
+   "src": "cane",
+   "tip": "Sardi ka asli saathi."
+  },
+  {
+   "name": "Vodka",
+   "name_hi": "वोडका",
+   "from": "Almost anything that ferments: grain, potatoes, even grapes",
+   "fact": "Usually not aged, and filtered to taste clean and neutral.",
+   "glass": "shot",
+   "liq": "clear",
+   "src": "potato",
+   "tip": "Plain hai, isliye sab mein mil jaata hai."
+  },
+  {
+   "name": "Gin",
+   "name_hi": "जिन",
+   "from": "A neutral spirit, flavoured with botanicals",
+   "fact": "Juniper berries must lead the flavour. In the EU, that’s the law.",
+   "glass": "copa",
+   "liq": "gin",
+   "src": "juniper",
+   "tip": "Tonic aur nimbu. Bas."
+  },
+  {
+   "name": "Tequila",
+   "name_hi": "टकीला",
+   "from": "Blue agave, a desert plant",
+   "fact": "Real tequila can only be made in Mexico.",
+   "glass": "tall",
+   "liq": "gold",
+   "src": "agave",
+   "tip": "Sip karo, race nahi hai."
+  },
+  {
+   "name": "Brandy",
+   "name_hi": "ब्रांडी",
+   "from": "Wine, distilled",
+   "fact": "Cognac is brandy from one region of France: Cognac.",
+   "glass": "snifter",
+   "liq": "brandy",
+   "src": "grapes",
+   "tip": "Bade glass mein, chhota peg."
+  }
+ ],
+ "outro": {
+  "line": "Ab order karo, <i style=\"color:#E3B04B;white-space:nowrap\">samajh ke.</i>",
+  "cta": "Send this to the friend who always orders “kuch bhi”.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "times": {
+  "cards": [
+   [
+    3.0,
+    7.6
+   ],
+   [
+    7.6,
+    12.2
+   ],
+   [
+    12.2,
+    16.8
+   ],
+   [
+    16.8,
+    21.4
+   ],
+   [
+    21.4,
+    26.0
+   ],
+   [
+    26.0,
+    30.6
+   ]
+  ],
+  "outro": [
+   30.6,
+   34.4
+  ]
+ },
+ "total": 34.4,
+ "caption": "What is whisky actually made from? 🥃 And rum, vodka, gin, tequila and brandy? Large Sahab explains all six in 30 seconds.\n\nWhisky: grain, aged in wood. Rum: sugarcane. Vodka: almost anything that ferments. Gin: botanicals, led by juniper. Tequila: blue agave, only in Mexico. Brandy: distilled wine.\n\nSave this for your next bar order, and send it to the friend who always orders “kuch bhi”. Which one is your drink? Tell us below.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #rum #vodka #gin #tequila #brandy #barknowledge #drinkresponsibly #LargeSahab #EkLarge"
+}
