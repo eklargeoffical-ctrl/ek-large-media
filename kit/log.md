@@ -39,3 +39,4 @@
 - Films made: 01 Bas Ek (Fri 23 Oct), 02 Main Theek Hoon (Sat 24), 03 Papa Ko Mat Batana (Sun 25), 04 Chakna Chor (Mon 26). They replace old-style Reels 10–13 in the same Metricool slots.
 - Backlog next: 05 Cab Book Kar, 06 Ek Gaana Aur, 07 Last Wala, 08 Shaadi Ka Bar Counter, 09 Mummy Aa Gayi, 10 Bas 10 Minute (Sun 1 Nov), 11 Diwali Ki Raat (Fri 6 Nov).
 - October Metricool count after this: 12 (Reels 02–09 + Films 01–04); room for 8 more in October.
+- Metricool ids (Films 01–04, PENDING 20:00 IST, cover = FilmNN_Thumb.jpg): 01=403006528 (23 Oct), 02=403006582 (24 Oct), 03=403006658 (25 Oct), 04=403006712 (26 Oct).
