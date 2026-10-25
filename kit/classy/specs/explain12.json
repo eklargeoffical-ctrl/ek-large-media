@@ -1,0 +1,119 @@
+{
+ "id": "Explain12",
+ "slug": "WhiskyOrWhiskey",
+ "date": "2026-11-02",
+ "prog": "F",
+ "shift": -1,
+ "bpm": 76,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "एक ‘e’ का फ़र्क",
+ "title": "Whisky or <i>whiskey?</i>",
+ "sub": "One letter. A lot of history.",
+ "badge": "SPELL CHECK · 12",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "print",
+    "word": "whisky",
+    "side": "thistle"
+   },
+   "kicker": "NO ‘E’",
+   "head": "Whisky",
+   "sub_label": "SPELLED THIS WAY IN",
+   "sub": "Scotland, Canada, Japan, India.",
+   "body": "Scotch’s spelling is even written into law.",
+   "cover_label": "Whisky"
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "print",
+    "word": "whiskey",
+    "side": "barley"
+   },
+   "kicker": "WITH AN ‘E’",
+   "head": "Whiskey",
+   "sub_label": "SPELLED THIS WAY IN",
+   "sub": "Ireland and the USA.",
+   "body": "Mostly. A few American brands still print ‘whisky’ on the label.",
+   "cover_label": "Whiskey"
+  },
+  {
+   "type": "info",
+   "dur": 5.8,
+   "art": {
+    "main": "still"
+   },
+   "kicker": "THE POPULAR STORY",
+   "head": "<span style=\"color:var(--honey)\">1800s</span>",
+   "head_size": 150,
+   "sub": "Irish distillers kept the ‘e’ to stand apart from Scotch.",
+   "body": "Spellings only settled in the early 1900s. Before that, all three countries mixed them up.",
+   "cover_label": "1800s"
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "barrel"
+   },
+   "kicker": "AMERICA",
+   "head": "Followed the Irish.",
+   "wrap": true,
+   "head_size": 76,
+   "body": "The usual explanation: Irish distillers brought the ‘e’ with them. US federal rules still spell it ‘whisky’.",
+   "cover_label": "America"
+  },
+  {
+   "type": "info",
+   "dur": 5.8,
+   "art": {
+    "main": "tulip",
+    "side": "drop"
+   },
+   "kicker": "BOTH COME FROM GAELIC",
+   "head": "Uisge beatha",
+   "sub_label": "MEANS",
+   "sub": "“Water of life.”",
+   "body": "A translation of the Latin aqua vitae. ‘Whiskie’ shows up in English by 1715.",
+   "cover_label": "Uisge beatha"
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "rocks",
+    "liq": "amber",
+    "side": "magnifier"
+   },
+   "kicker": "LARGE SAHAB’S RULE",
+   "head": "Spell it like the label.",
+   "wrap": true,
+   "head_size": 72,
+   "body": "Scotch, Japanese, Indian: whisky. Irish, American: usually whiskey.",
+   "tip": "Spelling galat chalega. Driving nahi.",
+   "cover_label": "The rule"
+  }
+ ],
+ "outro": {
+  "line": "Ek ‘e’ ka <i>poora itihaas.</i>",
+  "cta": "Which spelling were you using? Tell us below.",
+  "pill": "DRINK SLOW · NEVER DRINK AND DRIVE"
+ },
+ "cover_title": "Whisky or <i>whiskey?</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "print",
+   "word": "whisk(e)y"
+  },
+  "note": "Which one is right?"
+ },
+ "caption": "Whisky or whiskey? 🥃 Which spelling is right, and why there are two.\n\nWhisky (no “e”): Scotland, Canada, Japan, India. Scotch’s spelling is even written into law.\nWhiskey (with an “e”): Ireland and the USA, mostly. A few American brands still print “whisky”.\nThe popular story: in the 1800s Irish distillers kept the “e” to stand apart from Scotch, and America followed the Irish. Spellings only settled in the early 1900s.\nBoth come from the Gaelic uisge beatha, “water of life”.\n\nWhich spelling were you using? Comment below 👇 and save this for your next whisky argument.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #whiskey #scotch #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 87
+}

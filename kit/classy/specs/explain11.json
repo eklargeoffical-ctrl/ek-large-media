@@ -1,0 +1,120 @@
+{
+ "id": "Explain11",
+ "slug": "WhyCalledALarge",
+ "date": "2026-11-01",
+ "prog": "Eb",
+ "shift": 0,
+ "bpm": 78,
+ "series": "LARGE SAHAB EXPLAINS",
+ "hindi": "एक लार्ज, प्लीज़",
+ "title": "Why is it called <i>a ‘Large’?</i>",
+ "sub": "Small peg, large peg, Patiala peg.",
+ "badge": "PEG TALK · 11",
+ "cards": [
+  {
+   "type": "info",
+   "dur": 5.4,
+   "art": {
+    "main": "jigger",
+    "liq": "amber"
+   },
+   "kicker": "IN INDIA",
+   "head": "We pour pegs, not shots.",
+   "wrap": true,
+   "head_size": 72,
+   "body": "Spirits here are traditionally measured by the peg.",
+   "cover_label": "The peg"
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "stat": "30 ml",
+   "stat_num": 30,
+   "stat_suf": " ml",
+   "stat_size": 170,
+   "stat_note": "CHOTA PEG",
+   "kicker": "SMALL",
+   "head": "A small peg.",
+   "wrap": true,
+   "head_size": 76,
+   "body": "Also called a ‘chota’ peg. About one fluid ounce."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "stat": "60 ml",
+   "stat_num": 60,
+   "stat_suf": " ml",
+   "stat_size": 170,
+   "stat_note": "BADA PEG",
+   "kicker": "LARGE",
+   "head": "A large peg. ‘Ek large.’",
+   "wrap": true,
+   "head_size": 72,
+   "body": "Ask for just ‘a peg’ and this is usually the one people mean."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "jigger",
+    "liq": "gold"
+   },
+   "kicker": "HOW A BAR MEASURES IT",
+   "head": "The peg measure.",
+   "wrap": true,
+   "head_size": 76,
+   "body": "A double-ended steel cup: 30 ml on one side, 60 ml on the other.",
+   "cover_label": "Peg measure"
+  },
+  {
+   "type": "info",
+   "dur": 6.0,
+   "stat": "~120",
+   "stat_num": 120,
+   "stat_pre": "~",
+   "stat_suf": "",
+   "stat_size": 170,
+   "stat_note": "ML · LEGEND",
+   "kicker": "THE PATIALA PEG",
+   "head": "Patiala peg.",
+   "wrap": true,
+   "head_size": 76,
+   "body": "Legend says Maharaja Bhupinder Singh of Patiala (ruled 1900–1938) served giant pegs to a visiting team the night before a match.",
+   "tip": "Legend hai. Target nahi."
+  },
+  {
+   "type": "info",
+   "dur": 5.6,
+   "art": {
+    "main": "rocks",
+    "liq": "amber",
+    "over": "cube"
+   },
+   "kicker": "LARGE SAHAB’S RULE",
+   "head": "One large. Slowly.",
+   "wrap": true,
+   "head_size": 76,
+   "body": "Water between every peg, food on the table, and nobody drives.",
+   "cover_label": "Slowly"
+  }
+ ],
+ "outro": {
+  "line": "Ab pata chala, <i>‘Large’ kyun.</i>",
+  "cta": "Chota or large: which do you order? Comment below.",
+  "pill": "WATER BETWEEN EVERY PEG"
+ },
+ "cover_title": "Why a <i>‘Large’?</i>",
+ "cover": {
+  "type": "hero",
+  "art": {
+   "main": "jigger",
+   "liq": "amber"
+  },
+  "note": "Small, large or Patiala?"
+ },
+ "caption": "Why is it called a “Large”? 🥃 Small peg, large peg and the Patiala peg, explained.\n\nIn India, spirits are traditionally measured in pegs, not shots.\nSmall (chota) peg: 30 ml.\nLarge (bada) peg: 60 ml. Ask for just “a peg” and this is usually the one people mean.\nBars measure it with a double-ended peg measure: 30 ml on one side, 60 ml on the other.\nThe Patiala peg (about 120 ml) is a legend: Maharaja Bhupinder Singh of Patiala is said to have served giant pegs to a visiting team the night before a match.\n\nChota or large: which do you order? Comment below 👇 and send this to the friend who always says “ek large”.\n\nWater between every peg. Drink slow. Never drink and drive. 18+\n\n#whisky #peg #indianwhisky #LargeSahab #EkLarge",
+ "open": 3.0,
+ "outro_dur": 4.0,
+ "seed": 80
+}

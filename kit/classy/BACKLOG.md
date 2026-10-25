@@ -2,7 +2,7 @@
 
 Made (22–31 Oct): 01 What's in your glass · 02 Whisky myths · 03 How whisky came to India · 04 Why tonic says 'Indian' ·
 05 What whisky names mean · 06 Scotch, Bourbon or Irish? (quiz) · 07 Taste whisky like a pro · 08 Is your whisky
-really whisky? · 09 The Old Fashioned · 10 Bas Ek (comedy).
+really whisky? · 09 The Old Fashioned · 10 Bas Ek (comedy). (1–2 Nov): 11 Why is it called a ‘Large’? (idea 11) · 12 Whisky or whiskey? (idea 13).
 
 Keep the rhythm: about four explainers, then one comedy film. Verify every fact with a web search before writing the
 spec, and put the sources in the log entry. Diwali is Sunday 8 Nov 2026: the Diwali film must go out between 5 and 7 Nov.
