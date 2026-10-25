@@ -62,3 +62,23 @@
 - Plan count: October = 17 Metricool posts (Reels 02–08 + Explain 01–10). November = 0 so far.
 - Next autopilot (Sun 25 Oct): window is Sun 1 – Mon 2 Nov → BACKLOG ideas 11 and 13 (keep 12, Diwali Ki Raat, for 5–7 Nov, made by the 1 Nov run).
 - Review page for the owner: https://claude.ai/artifact/YQ8BtaZTLjTq8NknANeipP · calendar: https://claude.ai/artifact/KpYyJf9qYzeFieeMt6FCB4
+
+## 25 Oct 2026 (autopilot, Sunday run)
+- Window: day after the last scheduled reel (Sat 31 Oct, Explain 10) up to Mon 2 Nov → Sun 1 – Mon 2 Nov. Both days used (November count was 0).
+- Made and scheduled (20:00 IST, autoPublish, cover = ExplainNN_Cover.jpg via videoThumbnailUrl, media pinned to commit 6deefe2):
+  - Explain11 Why is it called a ‘Large’? (WhyCalledALarge) · Sun 1 Nov · Metricool 405441834 · BACKLOG idea 11
+  - Explain12 Whisky or whiskey? (WhiskyOrWhiskey) · Mon 2 Nov · Metricool 405441865 · BACKLOG idea 13
+  - Both confirmed PENDING with getScheduledPosts. No other posts touched.
+- New line-art: `jigger` (double-ended 30/60 ml peg measure) in classy.html MAIN.
+- Fact sources: Wikipedia “Peg (unit)” (small/chota 30 ml, large/bada 60 ml, “peg” alone = 60 ml, Patiala ~120 ml); Wikipedia “Bhupinder Singh of Patiala” (reigned 8 Nov 1900 – 23 Mar 1938); NewsGram 2018 (Patiala peg legend: tent-pegging match vs a visiting Irish team; ~120 ml; labelled a legend on screen); peg-measure retail listings (double-sided 30/60 ml); scotchwhisky.com “Ask the professor: whisky or whiskey” (spelling by country, 19th-century Irish “e” as the widely believed story, spellings settled in the 20th century, US influence of Irish distillers, Maker’s Mark/George Dickel use “whisky”, US regulations say “whisky”); Wikipedia “Whisky” (Gaelic uisce/uisge, aqua vitae, US Standards of Identity spell “whisky”); Etymonline “whiskey” (uisge beatha = water of life; “whiskie” 1715; split is a 19th-century innovation).
+- Plan count: October = 17 Metricool posts (unchanged). November = 2.
+- Last week’s reels (Metricool, 18–24 Oct; reach / views / shares / saves / avg watch s / view rate %):
+  - 18 Oct Disapproves 02: 18 / 24 / 0 / 0 / 3.8 / 33.3
+  - 19 Oct India’s Whisky Trail: 101 / 105 / 0 / 0 / 2.6 / 15.7 ← best by reach
+  - 20 Oct Chakna Tier List: 29 / 29 / 0 / 0 / 1.6 / 13.8
+  - 21 Oct Order Like Large Sahab: 68 / 75 / 0 / 0 / 3.6 / 26.9
+  - 22 Oct Explain01 What’s in your glass: 57 / 64 / 0 / 0 / 2.9 / 11.9
+  - 23 Oct Explain02 Whisky myths: 34 / 41 / 0 / 0 / 1.6 / 3.0
+  - 24 Oct Explain03 Whisky came to India: 23 / 23 / 0 / 0 / 4.0 / 17.4
+  - No shares on any reel. Followers (IGEV01): 2 (18–23 Oct; 25 Oct not yet reported).
+- Next autopilot (Sun 1 Nov): window Tue 3 – Mon 9 Nov. Diwali Ki Raat (idea 12) must go on 5–7 Nov (Fri 6 Nov preferred). Then ideas 14, 15, 16 … in order.
