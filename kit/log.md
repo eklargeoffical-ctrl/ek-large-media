@@ -82,3 +82,11 @@
   - 24 Oct Explain03 Whisky came to India: 23 / 23 / 0 / 0 / 4.0 / 17.4
   - No shares on any reel. Followers (IGEV01): 2 (18–23 Oct; 25 Oct not yet reported).
 - Next autopilot (Sun 1 Nov): window Tue 3 – Mon 9 Nov. Diwali Ki Raat (idea 12) must go on 5–7 Nov (Fri 6 Nov preferred). Then ideas 14, 15, 16 … in order.
+
+## 26 Oct 2026, afternoon (performance check → version 2 recut)
+- Numbers (Metricool, 26 Oct 15:40 IST; reach / views / avg watch s / view rate % past 3 s): Explain01 57/64/2.9/11.9 · Explain02 34/41/1.6/3.0 · Explain03 102/108/3.7/14.7 · Explain04 55/91/1.8/45.5 (under a day old). Older reels 14–21 Oct: reach 16–101 (avg ~45), watch 1.6–4.5 s. Likes 5 in total, comments 0, shares 0, saves 1. Followers 2.
+- Diagnosis: viewers leave in the first 2–4 s. The 3 s title card looks like a slide; 34–42 s reels never get finished; with 2 followers there is no early engagement. India-angle topics reached about twice as many people (Explain03 102, India's whisky trail 101); a curiosity question hook kept the most viewers (Explain04, 45% past 3 s).
+- Owner approved the recut. Version 2 (see kit/classy/FORMAT.md): hook bar at the top for the whole reel, no title card, first scene already on screen at frame 0 with a glass clink, 3–4 scenes, 21–25 s. Covers unchanged in style.
+- Recut and swapped in Metricool (same uuids, new ids): Explain05 406444806 (26 Oct) · 06 406444859 (27, now 3 clues) · 07 406449661 (28, "Are you drinking whisky wrong?", 4 steps) · 08 406449743 (29) · 09 406454746 (30) · 10 406453418 (31) · 11 406458189 (1 Nov) · 12 406458252 (2 Nov). Captions updated where the counts changed (05, 06, 07).
+- Not possible without the owner: trending Instagram audio via Metricool needs a Facebook Page linked to the account (not linked). Paid boosts not recommended (alcohol ad restrictions).
+- Next check: compare watch time and view rate of Explain05–08 (v2) against 01–04 (v1) on Sun 1 Nov.
