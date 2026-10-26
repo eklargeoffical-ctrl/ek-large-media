@@ -13,7 +13,7 @@
  "cards": [
   {
    "type": "info",
-   "dur": 5.4,
+   "dur": 4.6,
    "art": {
     "main": "jigger",
     "liq": "amber"
@@ -27,7 +27,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.6,
    "stat": "30 ml",
    "stat_num": 30,
    "stat_suf": " ml",
@@ -41,7 +41,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.6,
    "stat": "60 ml",
    "stat_num": 60,
    "stat_suf": " ml",
@@ -52,20 +52,6 @@
    "wrap": true,
    "head_size": 72,
    "body": "Ask for just ‘a peg’ and this is usually the one people mean."
-  },
-  {
-   "type": "info",
-   "dur": 5.6,
-   "art": {
-    "main": "jigger",
-    "liq": "gold"
-   },
-   "kicker": "HOW A BAR MEASURES IT",
-   "head": "The peg measure.",
-   "wrap": true,
-   "head_size": 76,
-   "body": "A double-ended steel cup: 30 ml on one side, 60 ml on the other.",
-   "cover_label": "Peg measure"
   },
   {
    "type": "info",
@@ -82,21 +68,6 @@
    "head_size": 76,
    "body": "Legend says Maharaja Bhupinder Singh of Patiala (ruled 1900–1938) served giant pegs to a visiting team the night before a match.",
    "tip": "Legend hai. Target nahi."
-  },
-  {
-   "type": "info",
-   "dur": 5.6,
-   "art": {
-    "main": "rocks",
-    "liq": "amber",
-    "over": "cube"
-   },
-   "kicker": "LARGE SAHAB’S RULE",
-   "head": "One large. Slowly.",
-   "wrap": true,
-   "head_size": 76,
-   "body": "Water between every peg, food on the table, and nobody drives.",
-   "cover_label": "Slowly"
   }
  ],
  "outro": {
@@ -114,7 +85,9 @@
   "note": "Small, large or Patiala?"
  },
  "caption": "Why is it called a “Large”? 🥃 Small peg, large peg and the Patiala peg, explained.\n\nIn India, spirits are traditionally measured in pegs, not shots.\nSmall (chota) peg: 30 ml.\nLarge (bada) peg: 60 ml. Ask for just “a peg” and this is usually the one people mean.\nBars measure it with a double-ended peg measure: 30 ml on one side, 60 ml on the other.\nThe Patiala peg (about 120 ml) is a legend: Maharaja Bhupinder Singh of Patiala is said to have served giant pegs to a visiting team the night before a match.\n\nChota or large: which do you order? Comment below 👇 and send this to the friend who always says “ek large”.\n\nWater between every peg. Drink slow. Never drink and drive. 18+\n\n#whisky #peg #indianwhisky #LargeSahab #EkLarge",
- "open": 3.0,
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 80
+ "seed": 80,
+ "hook": "Why is it called <i>a ‘Large’?</i>",
+ "v2": true
 }

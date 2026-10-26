@@ -13,7 +13,7 @@
  "cards": [
   {
    "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
    "art": {
     "main": "bottle",
     "mono": "G",
@@ -28,52 +28,7 @@
   },
   {
    "type": "info",
-   "dur": 5.2,
-   "art": {
-    "main": "bottle",
-    "mono": "L",
-    "side": "mill"
-   },
-   "kicker": "ISLAY · GAELIC",
-   "head": "Lagavulin",
-   "sub_label": "MEANS",
-   "sub": "“Hollow of the mill.”",
-   "body": "From the island of Islay, famous for smoky, peaty whisky.",
-   "cover_label": "Lagavulin"
-  },
-  {
-   "type": "info",
-   "dur": 5.2,
-   "art": {
-    "main": "bottle",
-    "mono": "G",
-    "side": "river"
-   },
-   "kicker": "SPEYSIDE · GAELIC",
-   "head": "Glenlivet",
-   "sub_label": "MEANS",
-   "sub": "“Valley of the smooth-flowing one.”",
-   "body": "The glen of the River Livet, in Scotland’s Speyside.",
-   "cover_label": "Glenlivet"
-  },
-  {
-   "type": "info",
-   "dur": 5.2,
-   "art": {
-    "main": "bottle",
-    "mono": "A",
-    "side": "drop"
-   },
-   "kicker": "BENGALURU · SANSKRIT",
-   "head": "Amrut",
-   "sub_label": "MEANS",
-   "sub": "“Nectar of the gods.”",
-   "body": "From amrit, the drink of immortality in Indian mythology.",
-   "cover_label": "Amrut"
-  },
-  {
-   "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
    "art": {
     "main": "bottle",
     "mono": "J",
@@ -88,7 +43,22 @@
   },
   {
    "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
+   "art": {
+    "main": "bottle",
+    "mono": "A",
+    "side": "drop"
+   },
+   "kicker": "BENGALURU · SANSKRIT",
+   "head": "Amrut",
+   "sub_label": "MEANS",
+   "sub": "“Nectar of the gods.”",
+   "body": "From amrit, the drink of immortality in Indian mythology.",
+   "cover_label": "Amrut"
+  },
+  {
+   "type": "info",
+   "dur": 5.0,
    "art": {
     "main": "bottle",
     "mono": "I",
@@ -112,8 +82,10 @@
   "type": "grid",
   "label_size": 21
  },
- "caption": "What do whisky names actually mean? 🥃 Glenfiddich, Lagavulin, Glenlivet, Amrut, Johnnie Walker and Indri, decoded.\n\nGlenfiddich: “valley of the deer”. Lagavulin: “hollow of the mill”. Glenlivet: “valley of the smooth-flowing one”. Amrut: from the Sanskrit amrit, the nectar of the gods. Johnnie Walker: John Walker’s grocery shop in Kilmarnock, 1820. Indri: the Haryana town where it’s made.\n\nWhich one surprised you? Comment below 👇 and send this to your whisky gang.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #scotchwhisky #indianwhisky #LargeSahab #EkLarge",
- "open": 3.0,
+ "caption": "What do whisky names actually mean? 🥃 Glenfiddich, Johnnie Walker, Amrut and Indri, decoded.\n\nGlenfiddich: “valley of the deer”. Johnnie Walker: John Walker’s grocery shop in Kilmarnock, 1820. Amrut: from the Sanskrit amrit, the nectar of the gods. Indri: the Haryana town where it’s made.\nBonus: Lagavulin means “hollow of the mill” and Glenlivet “valley of the smooth-flowing one”.\n\nWhich one surprised you? Comment below 👇 and send this to your whisky gang.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #scotchwhisky #indianwhisky #LargeSahab #EkLarge",
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 38
+ "seed": 38,
+ "hook": "What do whisky names <i>actually mean?</i>",
+ "v2": true
 }

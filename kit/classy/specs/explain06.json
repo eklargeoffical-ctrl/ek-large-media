@@ -13,7 +13,7 @@
  "cards": [
   {
    "type": "quiz",
-   "dur": 7.6,
+   "dur": 6.8,
    "kicker": "CLUE 1",
    "clue": "By law, it must be at least <i>51% corn.</i>",
    "options": [
@@ -26,7 +26,7 @@
   },
   {
    "type": "quiz",
-   "dur": 7.6,
+   "dur": 6.8,
    "kicker": "CLUE 2",
    "clue": "It must age at least <i>3 years in oak,</i> in one country only.",
    "options": [
@@ -39,7 +39,7 @@
   },
   {
    "type": "quiz",
-   "dur": 7.6,
+   "dur": 6.8,
    "kicker": "CLUE 3",
    "clue": "It’s famous for being <i>distilled three times.</i>",
    "options": [
@@ -49,19 +49,6 @@
    ],
    "answer": 2,
    "explain": "<span class=\"hon\">Irish whiskey.</span> Triple distillation is its classic style: lighter and smoother."
-  },
-  {
-   "type": "quiz",
-   "dur": 7.6,
-   "kicker": "CLUE 4",
-   "clue": "It tastes like <i>a campfire,</i> thanks to peat smoke from Islay.",
-   "options": [
-    "SCOTCH",
-    "BOURBON",
-    "IRISH"
-   ],
-   "answer": 0,
-   "explain": "<span class=\"hon\">Scotch.</span> Islay is a Scottish island, and peat smoke gives its whisky that smoky taste."
   }
  ],
  "outro": {
@@ -79,8 +66,12 @@
   ],
   "size": 112
  },
- "caption": "Scotch, Bourbon or Irish? 🥃 4 clues, 3 seconds each. How many did you get right?\n\nComment your score out of 4 👇 and send this to the friend who calls every whisky “Scotch”.\n\nAnswers: Bourbon must be at least 51% corn. Scotch must age at least 3 years in oak, in Scotland. Irish whiskey is famous for triple distillation. And the smoky peat of Islay? That’s Scotch.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #bourbon #scotch #LargeSahab #EkLarge",
- "open": 3.0,
+ "caption": "Scotch, Bourbon or Irish? 🥃 3 clues, 3 seconds each. How many did you get right?\n\nComment your score out of 3 👇 and send this to the friend who calls every whisky “Scotch”.\n\nAnswers: Bourbon must be at least 51% corn. Scotch must age at least 3 years in oak, in Scotland. Irish whiskey is famous for triple distillation.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #bourbon #scotch #LargeSahab #EkLarge",
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 45
+ "seed": 45,
+ "hook": "Scotch, Bourbon or Irish? <i>3 clues. Go.</i>",
+ "qcd": 1.0,
+ "qrv": 4.0,
+ "v2": true
 }

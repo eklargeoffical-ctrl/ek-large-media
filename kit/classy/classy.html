@@ -40,6 +40,14 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0A08}
 .opt.win b{color:#140D09}
 #scenes div{text-wrap:balance}
 .row,.opt,.col{text-wrap:wrap}
+#hookbar{position:absolute;left:0;right:0;top:146px;display:none;flex-direction:column;align-items:center;text-align:center;padding:0 84px;z-index:3}
+#hookbar .hb-row{display:flex;align-items:center;gap:16px}
+#hookbar .hb-m{position:relative;width:60px;height:60px;border-radius:50%;background:#F2E6CF;box-shadow:0 0 0 3px #0E0A08,0 0 0 5px var(--gold);overflow:hidden;flex:none}
+#hookbar .hb-t{margin-top:16px;font-family:'Lora';color:var(--cream);font-size:68px;line-height:1.06;letter-spacing:-1px;text-wrap:balance}
+#hookbar .hb-t i{font-style:italic;color:var(--honey)}
+#prog{position:absolute;left:96px;right:96px;top:382px;height:4px;border-radius:2px;background:rgba(217,164,65,.16);display:none;z-index:3}
+#prog i{display:block;height:100%;width:0;border-radius:2px;background:var(--gold)}
+body.v2 #scenes{transform:translateY(130px) scale(.9);transform-origin:50% 0}
 .stage-dir{font-family:'Lora';font-style:italic;font-size:42px;color:var(--muted)}
 </style>
 </head>
@@ -48,6 +56,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#0E0A08}
   <svg id="bokeh" class="layer" width="1080" height="1920"></svg>
   <div class="frame"></div>
   <div id="scenes" class="layer"></div>
+  <div id="hookbar"><div class="hb-row"><div class="hb-m" id="hbm"></div><div class="lab" id="hbs" style="font-size:22px;letter-spacing:7px"></div></div><div class="hb-t" id="hbt"></div></div>
+  <div id="prog"><i></i></div>
   <canvas id="grain" class="layer" width="270" height="480"></canvas>
 </div>
 <script src="../sahab.js"></script>
@@ -159,6 +169,7 @@ const BOKEH = [...Array(14)].map((_, i) => ({ x: (i * 211) % 1080, y: (i * 389) 
 const tipHTML = (tip, at) => tip ? `<div data-at="${at}" style="display:flex;align-items:center;gap:26px;margin-top:34px"><div class="medal" style="position:relative;width:120px;height:120px;flex:none;box-shadow:0 0 0 4px #0E0A08,0 0 0 6px var(--gold)">${rig({ raise: .5, smile: 1 }, 120)}</div><div><div class="lab" style="font-size:18px;letter-spacing:6px">LARGE SAHAB’S TIP</div><div class="serif" style="font-style:italic;font-size:40px;color:var(--honey);margin-top:4px">“${tip}”</div></div></div>` : '';
 
 function head(i, n, S) {
+  if (S.v2) return '';
   if (S.timeline) return `<div class="tl">${S.cards.map((c, k) => `<span class="${k === i ? 'on' : k < i ? 'past' : ''}">${c.tl}</span>`).join('<b></b>')}</div>`;
   return `<div class="dots">${[...Array(n)].map((_, k) => `<i class="${k <= i ? 'on' : ''}"></i>`).join('')}</div>
     <div class="lab" style="position:absolute;top:240px;left:0;right:0;text-align:center;font-size:22px">${String(i + 1).padStart(2, '0')} / ${String(n).padStart(2, '0')}</div>`;
@@ -274,9 +285,9 @@ function verdict(c, i, n) {
 function outro(s) {
   const d = document.createElement('div'); d.className = 'scene'; d.id = 'out';
   d.innerHTML = `
-    <div class="lab" style="position:absolute;top:210px;left:0;right:0;text-align:center">LARGE SAHAB SAYS</div>
-    <div class="medal" id="xm" style="left:50%;top:300px;margin-left:-180px;width:360px;height:360px"></div>
-    <div style="position:absolute;top:760px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;text-align:center">
+    ${s.v2 ? '' : '<div class="lab" style="position:absolute;top:210px;left:0;right:0;text-align:center">LARGE SAHAB SAYS</div>'}
+    <div class="medal" id="xm" style="left:50%;top:${s.v2 ? 330 : 300}px;margin-left:-180px;width:360px;height:360px"></div>
+    <div style="position:absolute;top:${s.v2 ? 780 : 760}px;left:90px;right:90px;display:flex;flex-direction:column;align-items:center;text-align:center">
       <div class="serif" style="font-size:${s.outro.size || 84}px;line-height:1.1">${s.outro.line}</div>
       <div class="serif" style="margin-top:44px;font-style:italic;font-size:46px;line-height:1.25;color:var(--honey);padding:0 20px">${s.outro.cta}</div>
       <div style="margin-top:56px"><span class="pill">${s.outro.pill}</span></div>
@@ -286,8 +297,11 @@ function outro(s) {
 }
 const BUILD = { drink: card, info, myth, recipe, quiz, beat, verdict };
 window.load = function (spec) {
-  SPEC = spec; const root = document.getElementById('scenes'); root.innerHTML = '';
-  root.appendChild(opener(spec)); spec.cards.forEach((c, i) => root.appendChild(BUILD[c.type || 'drink'](c, i, spec.cards.length))); root.appendChild(outro(spec));
+  SPEC = spec; QZ = { cd: spec.qcd || 1.6, rv: spec.qrv || 4.6 }; const root = document.getElementById('scenes'); root.innerHTML = '';
+  document.body.classList.toggle('v2', !!spec.v2);
+  document.getElementById('hookbar').style.display = spec.v2 ? 'flex' : 'none'; document.getElementById('prog').style.display = spec.v2 ? 'block' : 'none';
+  if (spec.v2) { document.getElementById('hbs').textContent = spec.series; document.getElementById('hbt').innerHTML = spec.hook; document.getElementById('hbm').innerHTML = rig({ raise: .7, smile: 1 }, 60); }
+  if (!spec.v2) root.appendChild(opener(spec)); spec.cards.forEach((c, i) => root.appendChild(BUILD[c.type || 'drink'](c, i, spec.cards.length))); root.appendChild(outro(spec));
   const warn = [];
   const fitOne = (e, max, min) => { let f = parseFloat(getComputedStyle(e).fontSize); while (e.scrollWidth > e.clientWidth + 2 && f > min) { f -= 4; e.style.fontSize = f + 'px'; } };
   document.querySelectorAll('.scene').forEach(sc => {
@@ -310,7 +324,7 @@ function show(id) { document.querySelectorAll('.scene').forEach(e => e.style.dis
 function enter(el, u) { const k = ease(u / .7); el.style.opacity = k; el.style.transform = `translateY(${(1 - k) * 40}px)`; }
 function leave(el, u, dur) { const k = ease((u - (dur - .45)) / .45); if (k > 0) { el.style.opacity = 1 - k; el.style.transform = `translateY(${-k * 30}px)`; } }
 // quiz clock (seconds into the card): countdown 1.6 → 4.6, reveal at 4.6
-const QZ = { cd: 1.6, rv: 4.6 };
+let QZ = { cd: 1.6, rv: 4.6 };
 
 window.render = function (t, frame) {
   const S = SPEC, T = S.times; seed = 500 + (frame || 0) * 13;
@@ -318,6 +332,7 @@ window.render = function (t, frame) {
   const cv = document.getElementById('grain'), x = cv.getContext('2d'), im = x.createImageData(270, 480);
   for (let i = 0; i < im.data.length; i += 4) { const v = rnd() * 255; im.data[i] = im.data[i + 1] = im.data[i + 2] = v; im.data[i + 3] = 255; }
   x.putImageData(im, 0, 0);
+  if (S.v2) document.querySelector('#prog i').style.width = (100 * clamp(t / S.total)) + '%';
   if (t < T.cards[0][0]) {
     const el = show('open'); const dur = T.cards[0][0];
     el.style.opacity = 1; el.style.transform = ''; if (t > .05) leave(el, t, dur);
@@ -328,12 +343,13 @@ window.render = function (t, frame) {
   const i = T.cards.findIndex(([a, b]) => t >= a && t < b);
   if (i >= 0) {
     const [a, b] = T.cards[i], u = t - a, dur = b - a, c = S.cards[i];
-    const el = show('c' + i); enter(el, u); leave(el, u, dur);
-    el.querySelectorAll('.ln').forEach(p => { p.style.strokeDasharray = 1; p.style.strokeDashoffset = 1 - ease((u - .1) / 1.1); });
-    el.querySelectorAll('.liq').forEach(p => { p.style.opacity = clamp((u - .7) / .6); });
-    el.querySelectorAll('[data-at]').forEach(e => { const k = ease((u - parseFloat(e.dataset.at)) / .6); e.style.opacity = k; e.style.transform = `translateY(${(1 - k) * 24}px)`; });
-    el.querySelectorAll('[data-strike]').forEach(e => { const k = ease((u - parseFloat(e.dataset.strike)) / .5); e.style.backgroundSize = `${k * 100}% 5px`; e.style.color = `rgba(242,230,207,${.92 - .4 * k})`; });
-    el.querySelectorAll('.num').forEach(e => { const k = ease((u - .3) / .7); e.style.opacity = k; e.style.transform = `scale(${.9 + .1 * k})`; if (e.dataset.num) { const v = Math.round(parseFloat(e.dataset.num) * ease((u - .3) / 1.3)); e.textContent = (c.stat_pre || '') + v + (c.stat_suf || ''); } });
+    const el = show('c' + i); const first = S.v2 && i === 0, du = first ? u + .9 : u;
+    if (first) { el.style.opacity = 1; el.style.transform = ''; } else enter(el, u); leave(el, u, dur);
+    el.querySelectorAll('.ln').forEach(p => { p.style.strokeDasharray = 1; p.style.strokeDashoffset = 1 - ease((du - .1) / 1.1); });
+    el.querySelectorAll('.liq').forEach(p => { p.style.opacity = clamp((du - .7) / .6); });
+    el.querySelectorAll('[data-at]').forEach(e => { const k = ease((du - parseFloat(e.dataset.at)) / .6); e.style.opacity = k; e.style.transform = `translateY(${(1 - k) * 24}px)`; });
+    el.querySelectorAll('[data-strike]').forEach(e => { const k = ease((du - parseFloat(e.dataset.strike)) / .5); e.style.backgroundSize = `${k * 100}% 5px`; e.style.color = `rgba(242,230,207,${.92 - .4 * k})`; });
+    el.querySelectorAll('.num').forEach(e => { const k = ease((du - .3) / .7); e.style.opacity = k; e.style.transform = `scale(${.9 + .1 * k})`; if (e.dataset.num) { const v = first ? parseFloat(e.dataset.num) : Math.round(parseFloat(e.dataset.num) * ease((u - .3) / 1.3)); e.textContent = (c.stat_pre || '') + v + (c.stat_suf || ''); } });
     const typ = c.type || 'drink';
     if (typ === 'quiz') {
       const cd = el.querySelector('.cd'), rg = el.querySelector('.rg'), ring = el.querySelector('.ring');
@@ -372,8 +388,9 @@ window.cover = function () {
   const medal = (top, sz = 220, p = { raise: .8, smile: 1 }) => `<div class="medal" style="left:50%;top:${top}px;margin-left:-${sz / 2}px;width:${sz}px;height:${sz}px">${rig(p, sz)}</div>`;
   let body = '';
   if (K.type === 'grid') {
-    body = `<div style="position:absolute;top:640px;left:90px;right:90px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px 0">
-      ${S.cards.map(c => `<div style="text-align:center"><div>${art(c, 290)}</div><div class="lab" style="font-size:${K.label_size || 24}px;letter-spacing:${K.label_size ? 3 : 6}px;margin-top:-6px;white-space:nowrap">${(c.cover_label || c.name || c.head).toUpperCase()}</div></div>`).join('')}
+    const four = S.cards.length === 4;
+    body = `<div style="position:absolute;top:640px;left:${four ? 150 : 90}px;right:${four ? 150 : 90}px;display:grid;grid-template-columns:repeat(${four ? 2 : 3},1fr);gap:10px 0">
+      ${S.cards.map(c => `<div style="text-align:center"><div>${art(c, four ? 330 : 290)}</div><div class="lab" style="font-size:${K.label_size || 24}px;letter-spacing:${K.label_size ? 3 : 6}px;margin-top:-6px;white-space:nowrap">${(c.cover_label || c.name || c.head).toUpperCase()}</div></div>`).join('')}
     </div>${medal(1330)}`;
   } else if (K.type === 'list') {
     body = `<div style="position:absolute;top:${K.list_top || 560}px;left:140px;right:120px;display:flex;flex-direction:column;gap:36px">
@@ -400,6 +417,7 @@ window.cover = function () {
       ${medal(1120, 240, { raise: 1, brow2: .2, mouth: .5 })}`;
   }
   d.innerHTML = title + body;
+  document.getElementById('hookbar').style.display = 'none'; document.getElementById('prog').style.display = 'none'; document.body.classList.remove('v2');
   document.querySelectorAll('.scene').forEach(e => e.style.display = 'none'); root.appendChild(d);
   const cvt = d.querySelector('.cvt'); let f = parseFloat(getComputedStyle(cvt).fontSize); while (cvt.scrollWidth > cvt.clientWidth + 2 && f > 70) { f -= 4; cvt.style.fontSize = f + 'px'; }
   document.getElementById('bokeh').innerHTML = BOKEH.map(b => `<circle cx="${b.x}" cy="${b.y}" r="${b.r}" fill="${b.c}"/>`).join('');

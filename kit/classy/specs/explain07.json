@@ -13,26 +13,12 @@
  "cards": [
   {
    "type": "info",
-   "dur": 5.2,
-   "art": {
-    "main": "tulip",
-    "over": "light",
-    "side": "eye"
-   },
-   "kicker": "STEP 1",
-   "head": "Look.",
-   "head_size": 150,
-   "sub": "Hold it up to the light.",
-   "body": "The colour comes mostly from the cask, so don’t judge age by colour."
-  },
-  {
-   "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
    "art": {
     "main": "tulip",
     "over": "swirl"
    },
-   "kicker": "STEP 2",
+   "kicker": "STEP 1",
    "head": "Swirl.",
    "head_size": 150,
    "sub": "Gently. Watch the drops run down.",
@@ -40,12 +26,12 @@
   },
   {
    "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
    "art": {
     "main": "tulip",
     "over": "aroma"
    },
-   "kicker": "STEP 3",
+   "kicker": "STEP 2",
    "head": "Nose.",
    "head_size": 150,
    "sub": "Small sniffs, lips slightly open.",
@@ -53,12 +39,12 @@
   },
   {
    "type": "info",
-   "dur": 5.2,
+   "dur": 4.8,
    "art": {
     "main": "tulip",
     "side": "stopwatch"
    },
-   "kicker": "STEP 4",
+   "kicker": "STEP 3",
    "head": "Sip.",
    "head_size": 150,
    "sub": "Hold it on your tongue for a few seconds.",
@@ -66,13 +52,13 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 5.4,
    "art": {
     "main": "tulip",
     "over": "dropper",
     "over_y": 152
    },
-   "kicker": "STEP 5",
+   "kicker": "STEP 4",
    "head": "Add water.",
    "head_size": 150,
    "sub": "A few drops. Then taste again.",
@@ -85,17 +71,19 @@
   "cta": "Save this for your next tasting. Send it to the friend who gulps.",
   "pill": "SIP SLOW · NEVER DRINK AND DRIVE"
  },
- "cover_title": "Taste whisky <i>like a pro</i>",
+ "cover_title": "Are you drinking <i>whisky wrong?</i>",
  "cover": {
   "type": "hero",
   "art": {
    "main": "tulip",
    "over": "aroma"
   },
-  "note": "5 steps · no snobbery"
+  "note": "4 steps · no snobbery"
  },
- "caption": "How to taste whisky like a pro 🥃 5 simple steps: look, swirl, nose, sip, add water.\n\nLook: hold it to the light. The colour mostly comes from the cask.\nSwirl: watch the legs run down the glass.\nNose: small sniffs, lips slightly open.\nSip: hold it on your tongue for a few seconds.\nWater: add a few drops and taste again. Science says it can bring the flavour forward.\n\nSave this for your next whisky tasting 🔖 and send it to the friend who gulps.\n\nSip slow. Never drink and drive. 18+\n\n#whisky #whiskytasting #singlemalt #LargeSahab #EkLarge",
- "open": 3.0,
+ "caption": "Are you drinking whisky wrong? 🥃 4 simple steps to taste it like a pro: swirl, nose, sip, add water.\n\nSwirl: gently, and watch the legs run down the glass.\nNose: small sniffs, lips slightly open.\nSip: hold it on your tongue for a few seconds.\nWater: add a few drops and taste again. Science says it can bring the flavour forward.\n\nSave this for your next whisky tasting 🔖 and send it to the friend who gulps.\n\nSip slow. Never drink and drive. 18+\n\n#whisky #whiskytasting #singlemalt #LargeSahab #EkLarge",
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 52
+ "seed": 52,
+ "hook": "Are you drinking whisky <i>wrong?</i>",
+ "v2": true
 }

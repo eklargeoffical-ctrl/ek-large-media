@@ -14,16 +14,6 @@
   {
    "type": "info",
    "dur": 5.4,
-   "stat": "No.1",
-   "kicker": "BY VOLUME",
-   "head": "India drinks more whisky than any other country.",
-   "wrap": true,
-   "head_size": 68,
-   "body": "So what’s actually in the bottle?"
-  },
-  {
-   "type": "info",
-   "dur": 6.0,
    "stat": "~90%",
    "stat_num": 90,
    "stat_size": 168,
@@ -38,7 +28,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.8,
    "art": {
     "main": "eu"
    },
@@ -50,7 +40,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.8,
    "art": {
     "main": "trophy"
    },
@@ -62,7 +52,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.8,
    "art": {
     "main": "bottle",
     "side": "magnifier"
@@ -89,7 +79,9 @@
   "note": "Check your label after this."
  },
  "caption": "Is your whisky really whisky? 🥃 India drinks more whisky than any country on earth, yet a lot of it isn’t made from grain.\n\nIn 2004, about 90% of what India sold as “whisky” was made from molasses, the leftover from sugar making that rum is made from. In Europe, whisky must be made from grain, so very little Indian “whisky” can be sold as whisky there. Meanwhile, Indian single malts are winning world awards.\n\nLarge Sahab’s tip: read the back label. Look for “malt”, “grain” or “single malt”.\n\nCheck your bottle and tell us below what it says 👇 Save this and share it with your whisky group.\n\nDrink slow. Never drink and drive. 18+\n\n#whisky #indianwhisky #singlemalt #LargeSahab #EkLarge",
- "open": 3.0,
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 59
+ "seed": 59,
+ "hook": "Is your whisky <i>really whisky?</i>",
+ "v2": true
 }

@@ -13,7 +13,7 @@
  "cards": [
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.8,
    "art": {
     "main": "print",
     "word": "cocktail"
@@ -26,7 +26,7 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
+   "dur": 4.8,
    "art": {
     "main": "rocks",
     "liq": "dark"
@@ -39,7 +39,7 @@
   },
   {
    "type": "recipe",
-   "dur": 6.6,
+   "dur": 6.2,
    "art": {
     "main": "rocks",
     "liq": "dark",
@@ -70,30 +70,16 @@
   },
   {
    "type": "info",
-   "dur": 5.6,
-   "art": {
-    "main": "rocks",
-    "liq": "none",
-    "over": "cube",
-    "side": "dasher"
-   },
-   "kicker": "METHOD · 1",
-   "head": "Soak & muddle.",
-   "sub": "Sugar cube, bitters, a dash of water.",
-   "body": "Soak the cube in the glass, then muddle until it dissolves."
-  },
-  {
-   "type": "info",
-   "dur": 5.8,
+   "dur": 5.4,
    "art": {
     "main": "rocks",
     "liq": "amber",
     "over": "spoon"
    },
-   "kicker": "METHOD · 2",
-   "head": "Ice. Whiskey. Stir.",
-   "sub": "Fill with ice, add the whiskey, stir gently.",
-   "body": "Garnish with orange and a cherry. Sip slowly.",
+   "kicker": "THE METHOD",
+   "head": "Soak. Muddle. Stir.",
+   "sub": "Sugar, bitters, a dash of water. Then ice and whiskey.",
+   "body": "Muddle until the sugar dissolves, then stir gently. Garnish with orange and a cherry.",
    "tip": "Shake mat karna. Yeh Old Fashioned hai."
   }
  ],
@@ -113,7 +99,9 @@
   "note": "The original 1806 cocktail"
  },
  "caption": "The Old Fashioned, explained 🥃 The original 1806 cocktail, still a bar classic.\n\nIn 1806 a New York newspaper defined a “cocktail” as spirit, sugar, water and bitters. As fancier drinks arrived, people asked for it the “old-fashioned” way, and by 1880 the name was in print.\n\nThe IBA recipe: 45 ml bourbon or rye whiskey, 1 sugar cube, a few dashes of aromatic bitters, a few dashes of plain water. Soak the sugar with the bitters and water, muddle, add ice and the whiskey, stir gently. Garnish with orange and a cocktail cherry.\n\nSave this for your next home bar night 🔖 and tag the friend who makes the best Old Fashioned.\n\nDrink slow. Never drink and drive. 18+\n\n#oldfashioned #cocktails #whiskey #LargeSahab #EkLarge",
- "open": 3.0,
+ "open": 0,
  "outro_dur": 4.0,
- "seed": 66
+ "seed": 66,
+ "hook": "Why is it called an <i>Old Fashioned?</i>",
+ "v2": true
 }

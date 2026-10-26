@@ -117,18 +117,21 @@ def lounge(spec, wav_path):
         if b % 4 == 3: place(kit, k.bol('Ge', .22), t0 + beat * 3.5)
         t0 += bar; b += 1
     for (a, _), c in zip(T['cards'], spec['cards']):
-        typ = c.get('type', 'drink'); place(fx, whoosh(rng), a - .35)
+        typ = c.get('type', 'drink')
+        if a - .35 >= 0: place(fx, whoosh(rng), a - .35)
         if typ in ('drink', 'info', 'recipe'): place(fx, ting(rng), a + .8)
         if typ == 'recipe':
             for k in range(len(c['rows'])): place(fx, tick(rng, .05), a + 1.0 + k * .45)
         if typ == 'myth': place(fx, k.bol('Ge', .30), a + 1.7); place(fx, ting(rng), a + 2.15)
         if typ == 'quiz':
-            for q in (1.6, 2.6, 3.6): place(fx, tick(rng), a + q)
-            place(fx, ding(rng), a + 4.6)
+            qcd, qrv = spec.get('qcd', 1.6), spec.get('qrv', 4.6)
+            for q in (qcd, qcd + 1, qcd + 2): place(fx, tick(rng), a + q)
+            place(fx, ding(rng), a + qrv)
         if typ == 'beat':
             for j in range(c.get('glasses', 0) - c.get('from', 0)): place(fx, clink(rng), a + .45 + j * .2 + .18)
         if typ == 'verdict': place(fx, ting(rng), a + .6); place(fx, k.bol('Na', .25), a + 2.0)
     place(fx, whoosh(rng), T['outro'][0] - .35)
+    if T['cards'][0][0] < .1: place(fx, clink(rng, .13), .04); place(fx, ting(rng, .06), .10)   # a "cheers" on frame 0
     nz = lambda x: x / (np.max(np.abs(x)) + 1e-9)
     mix = .55 * nz(keys) + .45 * nz(low) + .22 * nz(kit) + .30 * nz(fx)
     f = int(SR * 1.2); mix[:int(SR * .4)] *= np.linspace(.4, 1, int(SR * .4)); mix[-f:] *= np.linspace(1, 0, f)

@@ -14,7 +14,7 @@
  "cards": [
   {
    "type": "beat",
-   "dur": 4.2,
+   "dur": 3.6,
    "label": "RAAT KE",
    "time": "9:00 PM",
    "quote": "“Bas ek.”",
@@ -26,7 +26,7 @@
   },
   {
    "type": "beat",
-   "dur": 4.2,
+   "dur": 3.6,
    "label": "RAAT KE",
    "time": "10:30 PM",
    "quote": "“Bas ek… aur.”",
@@ -40,7 +40,7 @@
   },
   {
    "type": "beat",
-   "dur": 4.2,
+   "dur": 3.6,
    "label": "RAAT KE",
    "time": "12:00 AM",
    "quote": "“Yeh last hai. Pakka.”",
@@ -54,7 +54,7 @@
   },
   {
    "type": "beat",
-   "dur": 4.4,
+   "dur": 3.8,
    "label": "SUBAH KE",
    "time": "2:07 AM",
    "quote": "“Main bilkul theek hoon.”",
@@ -69,7 +69,7 @@
   },
   {
    "type": "verdict",
-   "dur": 4.6,
+   "dur": 4.0,
    "quote": "Beta… yeh <i>ek</i> tha?",
    "sub": "Ek ka matlab ek. Paani beech mein."
   }
@@ -87,7 +87,9 @@
   "note": "The biggest lie at every party"
  },
  "caption": "Bas ek. 🥃 The most broken promise at every party.\n\n9:00 PM: “Bas ek.”\n10:30 PM: “Bas ek… aur.”\n12:00 AM: “Yeh last hai. Pakka.”\n2:07 AM: “Main bilkul theek hoon.”\nLarge Sahab: “Beta… yeh ek tha?”\n\nTag the friend whose “bas ek” never ends 😄\n\nEk ka matlab ek. Water between every peg, and never drink and drive. 18+\n\n#party #friends #desihumor #LargeSahab #EkLarge",
- "open": 3.0,
- "outro_dur": 4.0,
- "seed": 73
+ "open": 0,
+ "outro_dur": 2.8,
+ "seed": 73,
+ "hook": "The biggest lie <i>at every party.</i>",
+ "v2": true
 }
