@@ -19,8 +19,8 @@ No voiceover, and never use ElevenLabs or any paid credits.
    this order: Fri, Sat, Sun, Wed, Mon, Thu, Tue.
 4. **Make the reels.** For each chosen date take the next unused idea in `kit/classy/BACKLOG.md` (keep about four
    explainers to one comedy film, and honour any date it names, such as Diwali). Verify every fact with web searches
-   first; never invent a fact, a date or a number. Write `kit/classy/specs/explainNN.json` (next number; copy the closest
-   existing spec), preview it with `python3 kit/classy/preview.py kit/classy/specs/explainNN.json /tmp/pv` and look at the
+   first; never invent a fact, a date or a number. Write `kit/classy/specs/explainNN.json` in the **version 2** format (hook first, 3–4 scenes, 18–25 s; see
+   FORMAT.md; copy one of the v2 specs explain05–12), preview it with `python3 kit/classy/preview.py kit/classy/specs/explainNN.json /tmp/pv` and look at the
    contact sheet: fix anything that wraps badly, overflows or crowds. Then render with
    `python3 kit/classy/make_classy.py kit/classy/specs/explainNN.json` and look at a few frames of the finished video and
    at the cover before scheduling.

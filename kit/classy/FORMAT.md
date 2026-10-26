@@ -13,6 +13,19 @@ Before rendering, run `python3 kit/classy/preview.py kit/classy/specs/explainNN.
 `/tmp/pv/ExplainNN_sheet.jpg` (opener, every card fully revealed, outro, cover). Fix anything that wraps badly or crowds.
 Rendering takes about 6–10 minutes per reel on two cores.
 
+## Version 2 (from 26 Oct 2026): hook first, shorter. This is now the default.
+Why: after the first 4 classy reels, viewers still left after 2–4 seconds (average watch 1.6–3.7 s on 34–42 s reels).
+The 3-second title card looked like a slide, so most people never reached the first fact.
+- Set `"v2": true, "open": 0, "outro_dur": 3.0` and a `hook` (HTML, `<i>` = honey italic, ≤ 2 lines at 68 px, ideally a question).
+  The hook sits in a bar at the top for the whole reel, with a small Large Sahab medal, the series label and a thin progress line.
+  There is no title card: the first scene is already on screen at frame 0 (its drawing nearly complete, its first lines visible),
+  and a glass clink plays at frame 0.
+- 3–4 scenes, 4.6–5.4 s each (recipe 6.2, quiz 6.8 with `"qcd": 1.0, "qrv": 4.0`, comedy beats 3.6), total 18–25 s.
+  Keep each scene calm; cut scenes rather than speeding them up. Put the most surprising scene first.
+- Hooks that worked best: a curiosity question with an India link ("Why does tonic say ‘Indian’?" kept 45% past 3 s).
+  The two reels that reached the most people were about Indian whisky: make about half the reels India-angle topics.
+- Covers stay as before (the separate thumbnail). With exactly 4 cards the `grid` cover becomes 2 × 2.
+
 ## Spec (copy the closest existing spec)
 - `id` ExplainNN, `slug` CamelCase, `date` YYYY-MM-DD (posts at 20:00 IST), `seed`
 - Music: `prog` D | Eb | F, `shift` (semitones, −2…+2), `bpm` 72–82. Vary them from the previous few reels.
